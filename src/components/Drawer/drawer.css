@@ -1,0 +1,48 @@
+
+@import "../../assets/css/variable.css";
+
+@font-face {
+    font-family: "icomoon";
+    src: url(../../assets/fonts/icomoonlatest.ttf);
+}
+
+/* Drawer css */
+
+.ant-drawer{
+    z-index: 99999999999 !important;
+}
+
+
+.ant-drawer-mask{
+    background: rgba(21, 21, 21, 0.4) !important;
+}
+.ant-drawer-header,.ant-drawer-body,.ant-drawer-footer {
+    padding: 16px !important;
+}
+
+.ant-drawer-header>.ant-drawer-header-title{
+    flex-direction: row-reverse !important;
+    align-items: center !important;
+}
+
+.ant-drawer-header-title>.ant-drawer-close::after{
+    content: '\E9EA';
+    font-family: "icomoon";
+    font-size: 14px !important;
+    color: var(--body-text) !important;
+}
+
+.ant-drawer-header-title>.ant-drawer-close>.anticon-close{
+    display: none;
+}
+.ant-drawer-header-title >.ant-drawer-close{
+    margin-inline-start: 0 !important;
+    padding-right: 0 !important;
+}
+
+.ant-drawer-header > .ant-drawer-header-title>div{
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 26px !important;
+    color: var(--input-font-color) !important;
+}

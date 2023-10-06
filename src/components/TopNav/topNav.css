@@ -1,0 +1,49 @@
+@import "../../assets/css/variable.css";
+
+@font-face {
+  font-family: "icomoon";
+  src: url(../../assets/fonts/icomoonlatest.ttf);
+}
+
+/* Wizard css */
+.topNav{
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+  padding: 10px 0px;
+}
+.topNav .leftSec{
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.topNav .leftSec .logoSec{
+  width: 60%;
+  text-align: center;
+  padding-right: 30px;
+}
+.topNav .leftSec .logoSec p{
+  margin: 0;
+  font-size: 12px;
+  font-weight:700;
+}
+
+.topNav .rightSec{
+  display: flex;
+  align-items: center;
+}
+.topNav .rightSec .btnDiv{
+  padding-right: 10px;
+}
+
+.topNav .rightSec .notifyDiv{
+  width: 24px;
+  margin-right: 10px;
+}
+.topNav .rightSec .notifyDiv img{
+  width: 100%;
+}
+
+.topNav .rightSec .avatarDiv{
+  padding-right: 10px;
+}

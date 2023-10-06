@@ -1,0 +1,117 @@
+
+@import "../../assets/css/variable.css";
+
+@font-face {
+  font-family: "icomoon";
+  src: url(../../assets/fonts/icomoonlatest.ttf);
+}
+
+.ant-upload-select {
+  position: relative;
+  background-color: var(--primary-20) !important;
+  color: var(--primary-80) !important;
+  width: 30px !important;
+  height: 30px !important;
+  border: none !important;
+  pointer-events: none;
+}
+
+/* Sizes  */
+
+.avatar-sm>.ant-upload {
+  width: 32px !important;
+  height: 32px !important;
+  font-size: 10px !important;
+  text-transform: uppercase;
+  border-radius: 50% !important;
+}
+
+.avatar-md>.ant-upload {
+  width: 40px !important;
+  height: 40px !important;
+  font-size: 12px !important;
+  text-transform: uppercase;
+  border-radius: 50% !important;
+}
+
+.avatar-lg>.ant-upload {
+  width: 48px !important;
+  height: 48px !important;
+  font-size: 14px !important;
+  text-transform: uppercase;
+  border-radius: 50% !important;
+}
+
+/* editIcon  */
+
+.avatar-sm>.ant-upload>.ant-upload,.avatar-md>.ant-upload>.ant-upload,.avatar-lg>.ant-upload>.ant-upload{
+  overflow: hidden !important;
+  border-radius: 50% !important;
+}
+
+/* edit lg */
+
+
+.avatar-lg>.ant-upload>.ant-upload>.editIcon{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: var(--brand-white);
+  background-color: var(--success-80);
+  right: -5px;
+  bottom: -2px;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.avatar-lg>.ant-upload>.ant-upload>.editIcon::after {
+  content: '\E990';
+  font-family: "icomoon";
+  font-size: 12px;
+}
+
+/* edit-md */
+
+.avatar-md>.ant-upload>.ant-upload>.editIcon{
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  color: var(--brand-white);
+  background-color: var(--success-80);
+  right: -4px;
+  bottom: 0;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.avatar-md>.ant-upload>.ant-upload>.editIcon::after {
+  content: "\E990";
+  font-family: "icomoon";
+  font-size: 8px;
+  vertical-align: text-top;
+}
+
+
+/* edit-sm */
+
+.avatar-sm>.ant-upload>.ant-upload>.editIcon{
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  color: var(--brand-white);
+  background-color: var(--success-80);
+  right: -2px;
+  bottom: -1px;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.avatar-sm>.ant-upload>.ant-upload>.editIcon::after {
+  content: "\E990";
+  font-family: "icomoon";
+  font-size: 6px;
+  vertical-align: text-top;
+}

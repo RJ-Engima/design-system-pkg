@@ -1,0 +1,147 @@
+
+@import "../../assets/css/variable.css";
+
+@font-face {
+  font-family: "icomoon";
+  src: url(../../assets/fonts/icomoonlatest.ttf);
+}
+
+
+/* priamry  */
+
+.tooltip-primary>.ant-tooltip-content>.ant-tooltip-inner {
+  background-color: var(--primary-20) !important;
+  width: 136px !important;
+  color: var(--body-text) !important;
+  display: flex !important;
+  align-items: center !important;
+  padding: 8px !important;
+  font-weight: 400 !important;
+  font-size: 10px !important;
+  line-height: 14px !important;
+  color: var(--body-text) !important;
+  margin: 0 !important;
+}
+
+.tooltip-primary>.ant-tooltip-content>.ant-tooltip-inner>p {
+  margin: 0 !important;
+  font-weight: 400 !important;
+  font-size: 10px !important;
+  line-height: 14px !important;
+  color: var(--body-text) !important;
+  margin: 0 !important;
+}
+
+.tooltip-primary>.ant-tooltip-content>.ant-tooltip-inner>div>p {
+  margin: 0 !important;
+  font-weight: 400 !important;
+  font-size: 10px !important;
+  line-height: 14px !important;
+  color: var(--body-text) !important;
+  margin: 0 !important;
+}
+
+.tooltip-primary>.ant-tooltip-content>.ant-tooltip-inner>div>h5 {
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  color: var(--body-text) !important;
+  margin: 0 !important;
+  font-family: Public-Sans-semi-bold !important;
+}
+
+.tooltip-primary>.ant-tooltip-content>.ant-tooltip-inner>h5 {
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  color: var(--body-text) !important;
+  font-family: Public-Sans-semi-bold !important;
+}
+
+.tooltip-primary>.ant-tooltip-content {
+  box-shadow: 0px 4px 8px rgba(21, 21, 21, 0.25) !important;
+  border-radius: 4px !important;
+}
+/* primary */
+
+.tooltip-primary>.ant-tooltip-content>.ant-tooltip-arrow::before {
+  background-color: var(--primary-20) !important;
+}
+
+/* light  */
+
+.tooltip-light>.ant-tooltip-content>.ant-tooltip-inner {
+  background-color: var(--brand-white) !important;
+  width: 136px !important;
+  color: var(--input-font-color) !important;
+  display: flex !important;
+  align-items: center !important;
+  padding: 8px !important;
+  font-weight: 400 !important;
+  font-size: 10px !important;
+  line-height: 14px !important;
+  margin: 0 !important;
+}
+
+
+.tooltip-light>.ant-tooltip-content>.ant-tooltip-inner>p {
+  font-weight: 400 !important;
+  font-size: 10px !important;
+  line-height: 14px !important;
+  color: var(--body-text) !important;
+  margin: 0 !important;
+}
+
+.tooltip-light>.ant-tooltip-content>.ant-tooltip-inner>div>p {
+  font-weight: 400 !important;
+  font-size: 10px !important;
+  line-height: 14px !important;
+  color: var(--body-text) !important;
+  margin: 0 !important;
+}
+
+.tooltip-light>.ant-tooltip-content>.ant-tooltip-inner>div>h5 {
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  color: var(--input-font-color) !important;
+  margin: 0 !important;
+  font-family: Public-Sans-semi-bold !important;
+}
+
+.tooltip-light>.ant-tooltip-content>.ant-tooltip-inner>h5 {
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  color: var(--body-text) !important;
+  font-family: Public-Sans-semi-bold !important;
+}
+
+
+.tooltip-light>.ant-tooltip-content {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16) !important;
+  border-radius: 4px !important;
+}
+
+
+.tooltip-light>.ant-tooltip-content>.ant-tooltip-arrow::before {
+  background-color: var(--brand-white) !important;
+}
+
+.btn-light {
+  background-color: var(--brand-white) !important;
+  color: var(--brand-black) !important;
+}
+
+.tooltip-primary,.tooltip-light {
+  position: relative !important;
+  z-index: 99999 !important;
+}
+
+.tooltip-primary >.ant-tooltip-arrow::before{
+  background: var(--primary-20) !important; 
+} 
+
+.tooltip-light >.ant-tooltip-arrow::before{   
+  background: var(--brand-white) !important;  
+}

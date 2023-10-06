@@ -1,0 +1,240 @@
+
+@import "../../assets/css/variable.css";
+
+@font-face {
+  font-family: "icomoon";
+  src: url(../../assets/fonts/icomoonlatest.ttf);
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box !important;
+  }
+/* main css */
+
+.form-group {
+  display: block! important;
+  width: fit-content ! important;
+  max-width: auto !important;
+  height: fit-content;
+}
+
+
+.label {
+  display: block! important;
+  font-weight: var(--label-font-weight)! important;
+  font-size: var(--label-font-size)! important;
+  line-height: var(--label-line-height)! important;
+  letter-spacing: 0! important;
+  color: var(--label-font-color)! important;
+  margin-bottom: 4px! important;
+}
+
+.input-sm {
+  padding: var(--input-padding-sm) !important;
+  min-width: var(--input-min-width) ! important;
+  font-weight: var(--input-font-weight) !important;
+  font-size: var(--input-font-size) !important;
+  line-height: var(--input-line-height) !important;
+  letter-spacing: 0! important;
+  gap: 8px! important;
+  border-radius: var(--input-border-radius) !important;
+  border: var(--input-border-size) solid var(--input-border-color)! important;
+  position: relative;
+  height: var(--input-height-sm);
+}
+
+.input-md {
+  padding: 12px 35px 12px 12px! important;
+  min-width: var(--input-min-width) ! important;
+  font-weight: var(--input-font-weight) !important;
+  font-size: var(--input-font-size) !important;
+  line-height: var(--input-line-height) !important;
+  letter-spacing: 0! important;
+  gap: 8px! important;
+  border-radius: var(--input-border-radius) ! important;
+  border: var(--input-border-size) solid var(--input-border-color)! important;
+}
+
+.input-lg {
+  padding: var(--input-padding-sm) ! important;
+  min-width: var(--input-min-width) ! important;
+  font-weight: var(--input-font-weight) !important;
+  font-size: var(--input-font-size) !important;
+  line-height: var(--input-line-height) !important;
+  letter-spacing: 0! important;
+  gap: 8px! important;
+  border-radius: var(--input-border-radius) !important;
+  border: var(--input-border-size) solid var(--input-border-color)! important;
+  position: relative;
+  height: var(--input-height-lg);
+}
+.input-sm:hover, .input-lg:hover{
+  border-color: var(--primary) !important;
+}
+.input-sm.input-error,
+.input-lg.input-error,
+.input-sm.input-success,
+.input-lg.input-success {
+  padding: 6px 32px 6px 8px !important;
+}
+
+input:focus {
+  outline: none! important;
+}
+
+.input-sm:focus,.input-md:focus,.input-lg:focus {
+  border: 1px solid var(--text-primary)! important;
+}
+
+/* .input-success{
+  border: var(--input-border-size) solid var(--success-100) ! important;
+}
+
+.input-error{
+  border: var(--input-border-size) solid var(--danger-100) ! important;
+} */
+
+.helper-text{
+  display: flex! important;
+  align-items: center! important;
+}
+
+/* .i-success::before{
+  content: '\E9A2'! important;
+  font-family: 'icomoon'! important;
+  font-size: 14px! important;
+  color: var(--success-100)! important;
+} */
+
+.success-text {
+  font-weight: var(--input-helper-font-weight) !important;
+  font-size: var(--input-helper-font-size) ! important;
+  line-height: var(--input-helper-line-height) ! important;
+  letter-spacing: 0! important;
+  color: var(--success-100)! important;
+}
+
+.MuiFormHelperText-root{
+  margin-top: 4px !important;
+}
+.success>.form-content>input{
+  border: var(--input-border-size) solid var(--success-80) ! important;
+  padding-right: 32px !important;
+}
+.error >.form-content>input{
+  border: var(--input-border-size) solid var(--danger-80) ! important;
+  padding-right: 32px !important;
+}
+
+
+/* .i-error::before {
+  content: '\E9A2'! important;
+  font-family: 'icomoon'! important;
+  font-size: var(--input-helper-line-height) ! important;
+  color: var(--danger-100) ! important;
+} */
+.error-text {
+  font-weight: var(--input-helper-font-weight) !important;
+  font-size: var(--input-helper-font-size) ! important;
+  line-height: var(--input-helper-line-height) ! important;
+  letter-spacing: 0.004em! important;
+  color: var(--danger-80) ! important;
+}
+
+.form-group.input_group{
+  position: relative;
+}
+/* .form-group.input_group .input_error_icon{
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+}
+.form-group.input_group .input_success_icon{
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+} */
+.form-group.input_group .input_success_icon img{
+  width: 16px;
+  height: 16px;
+}
+
+.success>.success-text{
+  display: flex !important;
+  align-items: center !important;
+}
+.error>.error-text{
+  display: flex !important;
+  align-items: center !important;
+}
+
+.input_success_icon,.input_error_icon {
+  margin-right: 4px !important;
+}
+
+.form-group.input_group .input_error_icon img{
+  width: 16px;
+  height: 16px;
+}
+.form-group.input_group .input_success_icon.active,
+.form-group.input_group .input_error_icon.active{
+  opacity: 1;
+}
+
+
+/* disabled */
+
+input:disabled {
+  background: var(--input-disabled-bg)! important;
+}
+
+/* .p-icon {
+  background: url(../../assets/img/password_img.png) no-repeat;
+  background-size: 6% 45%;
+  background-position: 95% center;
+} */
+
+.input-sm:focus, .p-icon {
+  color: var(--brand-black) !important;
+}
+
+
+
+.helper-text> p {
+  font-weight: var(--input-helper-font-weight) important;
+  font-size: var(--input-helper-font-size) ! important;
+  line-height: var(--input-helper-line-height) ! important;
+  letter-spacing: 0.004em! important;
+}
+
+
+/*  Password */
+
+input[type="password"]{
+  -webkit-text-security: disc !important;
+  padding-right: 32px !important;
+}
+
+.form-content {
+  position: relative;
+}
+
+ .eye-active {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.eye-active>img{
+  width: 14px;
+  height: auto;
+}
+
+.MuiFormHelperText-root {
+  display: flex;
+  align-items: center;
+}

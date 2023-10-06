@@ -1,0 +1,328 @@
+@import url("../../assets/css/variable.css");
+@font-face {
+  font-family: 'icomoon';
+  src: url(../../assets/fonts/icomoonlatest.ttf);
+}
+
+/* Common */
+.lablePos{
+  display: grid;
+  justify-content: center;
+}
+.MuiSwitch-switchBase.Mui-checked{
+  color: #ffffff !important;
+}
+.success-check, .primary-check, .declined-check, .warning-check, .info-check{
+  width: 44px !important;
+  height: 24px !important;
+  padding: 0 !important;
+  border-radius: 16px !important;
+  background-color: var(--default-switch) !important;
+  margin: 8px !important;
+}
+/* Success */
+
+.success-check>.MuiSwitch-switchBase{
+  padding: 0 !important;
+  /* top: 2px !important; */
+  left: 2px !important;
+}
+.success-check >.MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track {
+  opacity: 1 !important;
+  background-color: var(--success-100);
+}
+.primary-check .MuiSwitch-track {
+  background-color: var(--default-switch) !important;
+}
+.css-1yjjitx-MuiSwitch-track{
+  opacity: 1 !important;
+}
+
+/* Primary */
+.primary-check>.MuiSwitch-switchBase{
+  padding: 0 !important;
+  top: 2px !important;
+  left: 2px !important;
+}
+.primary-check > .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track {
+  opacity: 1 !important;
+  background-color: var(--primary-80) !important;
+}
+/* Declined */
+.declined-check>.MuiSwitch-switchBase{
+  padding: 0 !important;
+  top: 2px !important;
+  left: 2px !important;
+}
+.declined-check > .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track{
+  opacity: 1 !important;
+  background-color: var(--danger-100) !important;
+}
+/* Warning */
+.warning-check>.MuiSwitch-switchBase{
+  padding: 0 !important;
+  top: 2px !important;
+  left: 2px !important;
+}
+.warning-check > .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track {
+  opacity: 1 !important;
+  background-color: var(--warning-100) !important;
+}
+/* info */
+.info-check>.MuiSwitch-switchBase{
+  padding: 0 !important;
+  top: 2px !important;
+  left: 2px !important;
+}
+.info-check >
+  .MuiSwitch-switchBase.Mui-checked
+  + .MuiSwitch-track {
+  opacity: 1 !important;
+  background-color: var(--info-100) !important;
+}
+
+.css-j204z7-MuiFormControlLabel-root {
+  margin-bottom: 10px;
+}
+.css-j62giq-MuiSwitch-root {
+  margin-right: 10px;
+}
+.css-j62giq-MuiSwitch-root
+  .MuiSwitch-switchBase.Mui-checked.Mui-disabled
+  + .MuiSwitch-track {
+  opacity: 1 !important;
+}
+.MuiSwitch-switchBase.Mui-checked.Mui-disabled {
+  color: var(--brand-white) !important;
+}
+.MuiSwitch-switchBase.Mui-disabled {
+  color: var(--brand-white) !important;
+}
+.MuiSwitch-switchBase.Mui-disabled + .MuiSwitch-track {
+  opacity: 1 !important;
+  background-color: var(--primary-disabled) !important;
+}
+.uncheck-disabled > .MuiSwitch-track{
+  background-color: var(--grey-shadow-20) !important;
+}
+.primary-check>.Mui-checked.Mui-disabled + .MuiSwitch-track{
+  background-color: var(--primary-40) !important;
+}
+.success-checked-disabled > .MuiSwitch-track{
+  background-color: var(--success-40) !important;
+}
+.declined-check>.Mui-checked.Mui-disabled + .MuiSwitch-track{
+  background-color: var(--danger-40) !important;
+}
+.warning-check>.Mui-checked.Mui-disabled + .MuiSwitch-track{
+  background-color: var(--warning-40) !important;
+}
+.info-check>.Mui-checked.Mui-disabled +.MuiSwitch-track{
+  background-color: var(--info-40) !important;
+}
+/* Switches with text */
+.primary-text> .MuiSwitch-switchBase::after{
+  content: 'Off';
+  position: relative;
+  color:#fff;
+  font-family: var(--Public-Sans);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  padding-left: 2px;
+}
+.primary-text> .MuiSwitch-switchBase.Mui-checked::before{
+  content: 'On';
+  position: absolute;
+  right: 40px;
+  color:#fff;
+  font-family: var(--Public-Sans);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+.success-text> .MuiSwitch-switchBase::after{
+  content: 'Off';
+  position: relative;
+  color:#fff;
+  font-family: var(--Public-Sans);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  padding-left: 3px;
+}
+.success-text> .MuiSwitch-switchBase.Mui-checked::before{
+  content: 'On';
+  position: absolute;
+  right: 40px;
+  color:#fff;
+  font-family: var(--Public-Sans);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+.declined-text> .MuiSwitch-switchBase::after{
+  content: 'Off';
+  position: relative;
+  color:#fff;
+  font-family: var(--Public-Sans);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  padding-left: 3px;
+}
+.declined-text> .MuiSwitch-switchBase.Mui-checked::before{
+  content: 'On';
+  position: absolute;
+  right: 40px;
+  color:#fff;
+  font-family: var(--Public-Sans);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+.warning-text> .MuiSwitch-switchBase::after{
+  content: 'Off';
+  position: relative;
+  color:#fff;
+  font-family: var(--Public-Sans);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  padding-left: 3px;
+}
+.warning-text> .MuiSwitch-switchBase.Mui-checked::before{
+  content: 'On';
+  position: absolute;
+  right: 40px;
+  color:#fff;
+  font-family: var(--Public-Sans);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+.info-text> .MuiSwitch-switchBase::after{
+  content: 'Off';
+  position: relative;
+  color:#fff;
+  font-family: var(--Public-Sans);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  padding-left: 3px;
+}
+.info-text> .MuiSwitch-switchBase.Mui-checked::before{
+  content: 'On';
+  position: absolute;
+  right: 40px;
+  color:#fff;
+  font-family: var(--Public-Sans);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+.primary-icon> .MuiSwitch-switchBase::after{
+  content: "\e953";
+  position: relative;
+  color:#fff;
+  font-family: icomoon !important;
+  font-size: 13px;
+  padding-left: 3px;
+}
+.primary-icon> .MuiSwitch-switchBase.Mui-checked::before{
+  content: "\eac9";
+  position: absolute;
+  right: 39px;
+  color:#fff;
+  font-family: icomoon !important;
+  font-size: 13px;
+}
+.success-icon> .MuiSwitch-switchBase::after{
+  content: "\e953";
+  position: relative;
+  color:#fff;
+  font-family: icomoon !important;
+  width: 16px;
+  padding-left: 3px;
+}
+.success-icon> .MuiSwitch-switchBase.Mui-checked::before{
+  content: "\eac9";
+  position: absolute;
+  right: 36px;
+  color:#fff;
+  font-family: icomoon !important;
+  width: 16px;
+}
+.declined-icon> .MuiSwitch-switchBase::after{
+  content: "\e953";
+  position: relative;
+  color:#fff;
+  font-family: icomoon !important;
+  width: 16px;
+  padding-left: 3px;
+}
+.declined-icon> .MuiSwitch-switchBase.Mui-checked::before{
+  content: "\eac9";
+  position: absolute;
+  right: 36px;
+  color:#fff;
+  font-family: icomoon !important;
+  width: 16px;
+}
+.warning-icon> .MuiSwitch-switchBase::after{
+  content: "\e953";
+  position: relative;
+  color:#fff;
+  font-family: icomoon !important;
+  width: 16px;
+  padding-left: 3px;
+}
+.warning-icon> .MuiSwitch-switchBase.Mui-checked::before{
+  content: "\eac9";
+  position: absolute;
+  right: 36px;
+  color:#fff;
+  font-family: icomoon !important;
+  width: 16px;
+}
+.info-icon> .MuiSwitch-switchBase::after{
+  content: "\e953";
+  position: relative;
+  color:#fff;
+  font-family: icomoon !important;
+  width: 16px;
+  padding-left: 3px;
+}
+.info-icon> .MuiSwitch-switchBase.Mui-checked::before{
+  content: "\eac9";
+  position: absolute;
+  right: 36px;
+  color:#fff;
+  font-family: icomoon !important;
+  width: 16px;
+}
+
+.switchLable{
+  display: flex;
+}
+.switchLable div{
+  padding: 15px;
+}
+
+.topLable{
+  padding-left: 115px;
+}
+.bottomLable{
+  padding-left: 110px;
+}
+.outPutGrid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.outPut{
+  margin: auto;
+  padding: 50px;
+}
+
+

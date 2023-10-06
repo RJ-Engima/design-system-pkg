@@ -1,0 +1,45 @@
+
+@import "../../assets/css/variable.css";
+
+@font-face {
+  font-family: "icomoon";
+  src: url(../../assets/fonts/icomoonlatest.ttf);
+}
+
+.MuiBreadcrumbs-li:first-child:before  {
+  display: none !important;
+}
+
+.MuiBreadcrumbs-li::before {
+  content: '\E92D';
+  font-family: 'icomoon';
+  font-size: 12px !important;
+  color: var(--body-text) !important;
+}
+.MuiBreadcrumbs-li {
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  letter-spacing: 0.004em !important;
+  color: var(--brand-black) !important;
+  text-indent: 6px !important;
+}
+
+.MuiBreadcrumbs-separator {
+  display: none !important;
+}
+
+.default-color{
+  font-weight: 400  !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  letter-spacing: 0.004em !important;
+  color: var(--primary-80) !important;
+}
+

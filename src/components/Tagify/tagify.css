@@ -1,0 +1,184 @@
+
+@import "../../assets/css/variable.css";
+
+@font-face {
+  font-family: "icomoon";
+  src: url(../../assets/fonts/icomoonlatest.ttf);
+  }
+
+/* main css */
+
+/* Small */
+
+.tagSm>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root{
+  min-height: var(--input-height-sm);
+  min-width: var(--input-min-width) !important;
+  width: var(--input-min-width) !important;
+  padding: 0 !important;
+  border-radius: var(--button-border-curve);
+  background-color: var(--brand-white);
+  border: 1px solid;
+  border-color: var(--input-border-color);
+  max-height: 100px;
+  overflow: auto;
+}
+
+/* HOVER */
+
+.tagSm>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root:hover{
+    border: 1px solid;
+    border-color: var(--primary-80);
+}
+
+.tagLg>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root:hover{
+  border: 1px solid;
+  border-color: var(--primary-80);
+}
+
+/* FOCUS WITHIN */
+
+.tagSm>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root:focus-within{
+  border: 1px solid;
+  border-color: var(--input-font-color);
+}
+
+.tagLg>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root:focus-within{
+border: 1px solid;
+border-color: var(--input-font-color);
+}
+
+
+
+
+
+.tagSm>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root>input{
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 20px !important;
+  padding: 12px;
+}
+.tagLg>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root>input{
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 20px !important;
+  padding: 12px !important;
+  color: var(--text-primary) !important;
+}
+
+.tagSm>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root::before,
+.tagSm>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root::after {
+  display: none;
+}
+
+/* Large */
+
+.tagLg>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root{
+  min-height: var(--input-height-lg);
+  min-width: var(--input-min-width) !important;
+  width: var(--input-min-width) !important;
+  padding: 0 !important;
+  border-radius: var(--button-border-curve);
+  background-color: var(--brand-white);
+  border: 1px solid;
+  border-color: var(--input-border-color);
+  max-height: 100px;
+  overflow: auto;
+}
+
+.tagLg>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root::before,
+.tagLg>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root::after {
+  display: none;
+}
+
+/* Design Chip */
+
+.tagSm>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root>.MuiChip-root{
+  margin: 4px;
+  background-color: var(--info-10) !important;
+  width: fit-content;
+  font-weight: unset !important;
+  height: 24px;
+  padding: 4px 8px 4px 8px !important;
+  margin-left: 8px !important;
+  border-radius: 4px !important;
+  color: var(--info-80);
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  line-height: 16px !important;
+}
+
+.tagLg>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root>.MuiChip-root{
+  margin: 4px;
+  background-color: var(--info-10) !important;
+  width: fit-content;
+  font-weight: unset !important;
+  height: 32px;
+  padding: 4px 8px 4px 8px !important;
+  margin-left: 8px !important;
+  border-radius: 4px !important;
+  color: var(--info-80);
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  line-height: 16px !important;
+}
+
+.tagSm>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root>.MuiChip-root>.MuiSvgIcon-root>path {
+    display: none;
+}
+
+.tagSm>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root>.MuiChip-root>.MuiSvgIcon-root {
+  background: url(../../assets/img/blueCross.svg) no-repeat;
+  background-size: 40% 100%;
+  background-position-x: right;
+}
+
+.tagLg>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root>.MuiChip-root>.MuiSvgIcon-root>path {
+  display: none;
+}
+
+.tagLg>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root>.MuiChip-root>.MuiSvgIcon-root {
+background: url(../../assets/img/blueCross.svg) no-repeat;
+background-size: 40% 100%;
+background-position-x: right;
+}
+
+.tagSm>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root>.MuiChip-root>.MuiChip-label{
+  display: flex;
+  align-items: center;
+  width: -webkit-fill-available;
+  justify-content: space-evenly;
+  cursor:auto;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  line-height: 16px !important;
+}
+
+.tagLg>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root>.MuiChip-root>.MuiChip-label{
+  display: flex;
+  align-items: center;
+  width: -webkit-fill-available;
+  justify-content: space-evenly;
+  cursor:auto;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  line-height: 16px !important;
+}
+
+
+.tagSm>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root>.MuiAutocomplete-endAdornment>
+.MuiButtonBase-root>.MuiSvgIcon-root{
+  display: none;
+}
+
+.tagSm>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root>.MuiAutocomplete-endAdornment>.MuiButtonBase-root{
+  display: none !important;
+}
+
+.tagLg>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root>.MuiAutocomplete-endAdornment>
+.MuiButtonBase-root>.MuiSvgIcon-root{
+  display: none;
+}
+
+.tagLg>.MuiBox-root>.MuiFormControl-root>.MuiInputBase-root>.MuiAutocomplete-endAdornment>.MuiButtonBase-root{
+  display: none !important;
+}

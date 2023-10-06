@@ -1,0 +1,1177 @@
+
+@font-face {
+  font-family: "icomoon";
+  src: url(../../assets/fonts/icomoonlatest.ttf);
+}
+
+@import "../../assets/css/variable.css";
+
+.material-icons {
+  overflow: visible !important;
+}
+
+/* Social Media Logos */
+
+/* Solid Icons Filled */
+
+/* brand red  bg */
+
+.fb-rbg-i:after {
+  cursor: pointer;
+  content: "\ea70";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.twitter-rbg-i::after {
+  cursor: pointer;
+  content: "\ea7d";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.insta-rbg-i::after {
+  cursor: pointer;
+  content: "\ea75";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.apple-rbg-i::after {
+  cursor: pointer;
+  content: "\ea44";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.app-rbg-i::after {
+  cursor: pointer;
+  content: "\ea43";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.android-rbg-i::after {
+  cursor: pointer;
+  content: "\ea42";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.whatsapp-rbg-i::after {
+  cursor: pointer;
+  content: "\ea69";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.pinterest-rbg-i::after {
+  cursor: pointer;
+  content: "\ea59";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.linkedin-rbg-i::after {
+  cursor: pointer;
+  content: "\ea76";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.google-rbg-i::after {
+  cursor: pointer;
+  content: "\ea50";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.youtube-rbg-i::after {
+  cursor: pointer;
+  content: "\ea7e";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/********** white bg with red color text **********/
+
+.fb-wbg-i:after {
+  cursor: pointer;
+  content: "\ea70";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.twitter-wbg-i::after {
+  cursor: pointer;
+  content: "\ea7d";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.insta-wbg-i::after {
+  cursor: pointer;
+  content: "\ea75";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.apple-wbg-i::after {
+  cursor: pointer;
+  content: "\ea44";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.app-wbg-i::after {
+  cursor: pointer;
+  content: "\ea43";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.android-wbg-i::after {
+  cursor: pointer;
+  content: "\ea42";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.whatsapp-wbg-i::after {
+  cursor: pointer;
+  content: "\ea69";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.pinterest-wbg-i::after {
+  cursor: pointer;
+  content: "\ea59";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.linkedin-wbg-i::after {
+  cursor: pointer;
+  content: "\ea76";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.google-wbg-i::after {
+  cursor: pointer;
+  content: "\ea50";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.youtube-wbg-i::after {
+  cursor: pointer;
+  content: "\ea7e";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/********** white bg with black color text **********/
+
+.fb-wbgb-i:after {
+  cursor: pointer;
+  content: "\ea70";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.twitter-wbgb-i::after {
+  cursor: pointer;
+  content: "\ea7d";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.insta-wbgb-i::after {
+  cursor: pointer;
+  content: "\ea75";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.apple-wbgb-i::after {
+  cursor: pointer;
+  content: "\ea44";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.app-wbgb-i::after {
+  cursor: pointer;
+  content: "\ea43";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.android-wbgb-i::after {
+  cursor: pointer;
+  content: "\ea42";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.whatsapp-wbgb-i::after {
+  cursor: pointer;
+  content: "\ea69";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.pinterest-wbgb-i::after {
+  cursor: pointer;
+  content: "\ea59";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.linkedin-wbgb-i::after {
+  cursor: pointer;
+  content: "\ea76";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.google-wbgb-i::after {
+  cursor: pointer;
+  content: "\ea50";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.youtube-wbgb-i::after {
+  cursor: pointer;
+  content: "\ea7e";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  background-color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/********** Black bg with white color text **********/
+
+.fb-bbg-i:after {
+  cursor: pointer;
+  content: "\ea70";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.twitter-bbg-i::after {
+  cursor: pointer;
+  content: "\ea7d";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.insta-bbg-i::after {
+  cursor: pointer;
+  content: "\ea75";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.apple-bbg-i::after {
+  cursor: pointer;
+  content: "\ea44";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.app-bbg-i::after {
+  cursor: pointer;
+  content: "\ea43";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.android-bbg-i::after {
+  cursor: pointer;
+  content: "\ea42";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.whatsapp-bbg-i::after {
+  cursor: pointer;
+  content: "\ea69";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.pinterest-bbg-i::after {
+  cursor: pointer;
+  content: "\ea59";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.linkedin-bbg-i::after {
+  cursor: pointer;
+  content: "\ea76";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.google-bbg-i::after {
+  cursor: pointer;
+  content: "\ea50";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.youtube-bbg-i::after {
+  cursor: pointer;
+  content: "\ea7e";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/******* Social Media Icons Outline  Black ****** */
+
+.fb-bdb-i:after {
+  cursor: pointer;
+  content: "\ea70";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-black) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.twitter-bdb-i::after {
+  cursor: pointer;
+  content: "\ea7d";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-black) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.insta-bdb-i::after {
+  cursor: pointer;
+  content: "\ea75";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-black) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.apple-bdb-i::after {
+  cursor: pointer;
+  content: "\ea44";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-black) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.app-bdb-i::after {
+  cursor: pointer;
+  content: "\ea43";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-black) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.android-bdb-i::after {
+  cursor: pointer;
+  content: "\ea42";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-black) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.whatsapp-bdb-i::after {
+  cursor: pointer;
+  content: "\ea69";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-black) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.pinterest-bdb-i::after {
+  cursor: pointer;
+  content: "\ea59";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-black) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.linkedin-bdb-i::after {
+  cursor: pointer;
+  content: "\ea76";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-black) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.google-bdb-i::after {
+  cursor: pointer;
+  content: "\ea50";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-black) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.youtube-bdb-i::after {
+  cursor: pointer;
+  content: "\ea7e";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-black) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-black) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Outline white border */
+
+.fb-bdw-i:after {
+  cursor: pointer;
+  content: "\ea70";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-white) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.twitter-bdw-i::after {
+  cursor: pointer;
+  content: "\ea7d";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-white) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.insta-bdw-i::after {
+  cursor: pointer;
+  content: "\ea75";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-white) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.apple-bdw-i::after {
+  cursor: pointer;
+  content: "\ea44";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-white) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.app-bdw-i::after {
+  cursor: pointer;
+  content: "\ea43";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-white) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.android-bdw-i::after {
+  cursor: pointer;
+  content: "\ea42";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-white) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.whatsapp-bdw-i::after {
+  cursor: pointer;
+  content: "\ea69";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-white) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.pinterest-bdw-i::after {
+  cursor: pointer;
+  content: "\ea59";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-white) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.linkedin-bdw-i::after {
+  cursor: pointer;
+  content: "\ea76";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-white) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.google-bdw-i::after {
+  cursor: pointer;
+  content: "\ea50";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-white) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.youtube-bdw-i::after {
+  cursor: pointer;
+  content: "\ea7e";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-white) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-white) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/********** outline red color **********/
+
+.fb-bdr-i:after {
+  cursor: pointer;
+  content: "\ea70";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-color) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.twitter-bdr-i::after {
+  cursor: pointer;
+  content: "\ea7d";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-color) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.insta-bdr-i::after {
+  cursor: pointer;
+  content: "\ea75";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-color) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.apple-bdr-i::after {
+  cursor: pointer;
+  content: "\ea44";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-color) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.app-bdr-i::after {
+  cursor: pointer;
+  content: "\ea43";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-color) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.android-bdr-i::after {
+  cursor: pointer;
+  content: "\ea42";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-color) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.whatsapp-bdr-i::after {
+  cursor: pointer;
+  content: "\ea69";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-color) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.pinterest-bdr-i::after {
+  cursor: pointer;
+  content: "\ea59";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-color) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.linkedin-bdr-i::after {
+  cursor: pointer;
+  content: "\ea76";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-color) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.google-bdr-i::after {
+  cursor: pointer;
+  content: "\ea50";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-color) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.youtube-bdr-i::after {
+  cursor: pointer;
+  content: "\ea7e";
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--brand-color) !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid var(--brand-color) !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}

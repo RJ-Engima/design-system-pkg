@@ -1,0 +1,55 @@
+
+@font-face {
+  font-family: "icomoon";
+  src: url(../../assets/fonts/icomoonlatest.ttf);
+}
+
+@import "../../assets/css/variable.css";
+
+
+.btni {
+  padding: 4px !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.btni-disabled {
+  padding: 4px !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: not-allowed !important;
+  opacity: 0.3 !important;
+}
+
+.btni-sm {
+  padding: 4px !important;
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 4px !important;
+}
+
+.btni-md {
+  padding: 8px !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 4px !important;
+}
+
+.btni-lg {
+  padding: 12px !important;
+  width: 48px !important;
+  height: 48px !important;
+  border-radius: 4px !important;
+}
+
+.add-icon::before {
+  content: "\e9bb";
+  font-family: "icomoon";
+  font-size: 110% !important;
+  color: currentColor !important;
+}

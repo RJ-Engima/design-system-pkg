@@ -1,0 +1,91 @@
+
+@import "../../assets/css/variable.css";
+
+
+/* Sizes */ 
+
+/* small */
+
+.btnIcon >.MuiFab-sizeSmall {
+    width: 32px !important;
+    min-height: 32px !important;
+    height: 32px !important;
+    border-radius: var(--button-border-curve) !important;
+    padding: 4px !important;    
+    display: block !important;
+    box-shadow: none !important;
+}       
+.btnIcon >.MuiFab-sizeSmall >i {
+    font-size: 16px !important;     
+    line-height: 25px !important;           
+}   
+
+/* Large */
+.btnIcon >.MuiFab-sizeLarge {   
+    width: 44px !important; 
+    min-width: 44px !important; 
+    min-height: 44px !important;
+    height: 44px !important;
+    border-radius: var(--button-border-curve) !important;
+    padding: 8px !important;    
+    display: block !important;
+    box-shadow: none !important;
+}       
+
+.btnIcon >.MuiFab-sizeLarge >i {    
+    font-size: 20px !important;     
+    line-height: 32px !important;           
+}   
+
+
+/* circular */
+.icon-primary>.MuiFab-contained {
+    background-color: var(--primary-80) !important;
+    color: var(--text-white) !important;    
+}   
+.icon-primary>.MuiFab-contained:hover {
+    background-color: var(--primary-hover-bg) !important;
+    color: var(--primary-hover-color) !important;
+}       
+
+/* extended */
+.icon-primary>.MuiFab-outlined {
+    border: 1px solid var(--primary-80) !important;
+    color: var(--primary-80) !important;    
+    background-color: inherit !important;   
+}       
+.icon-primary>.MuiFab-outlined:hover {  
+    border: 1px solid var(--primary-hover-bg) !important;   
+    color: var(--primary-hover-bg) !important;          
+}   
+
+/* string */
+.icon-primary>.MuiFab-text {
+    border: 1px solid !important;   
+    border-color: transparent !important;       
+    color: var(--primary-80) !important;        
+    background-color: inherit !important;           
+}   
+.icon-primary>.MuiFab-text:hover{
+    border: 1px solid var(--primary-hover-bg) !important;    
+}      
+
+
+
+/* Disabled */
+
+.icon-primary>.MuiFab-contained.Mui-disabled {
+    background-color: var(--primary-disabled) !important;
+    color: var(--primary-hover-color) !important;       
+}   
+
+.icon-primary>.MuiFab-outlined.Mui-disabled {
+    border: 1px solid var(--primary-disabled) !important;
+    background-color: inherit !important;
+    color: var(--primary-disabled) !important;
+}
+
+.icon-primary>.MuiFab-text.Mui-disabled { 
+    background-color: inherit !important;       
+    color: var(--primary-disabled) !important;       
+}   

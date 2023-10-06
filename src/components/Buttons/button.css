@@ -1,0 +1,217 @@
+
+@import "../../assets/css/variable.css";
+
+.MuiButtonBase-root {  
+  text-transform: none !important;
+  font-family: var(--Public-Sans) !important; 
+  box-shadow: none !important;
+  font-family: Public-Sans-semi-bold !important;      
+} 
+
+/* contained */
+
+.btn-primary >.MuiButton-contained { 
+  background-color: var(--primary-80) !important;
+  color: var(--text-white) !important;
+}  
+.btn-success >.MuiButton-contained { 
+  background-color: var(--success-100)  !important;
+  color: var(--text-white)  !important;
+}  
+.btn-warning >.MuiButton-contained { 
+  background-color: var(--warning-100)  !important;
+  color: var(--text-white) !important;
+}  
+.btn-danger >.MuiButton-contained { 
+  background-color: var(--danger-80) !important;
+  color: var(--text-white) !important;
+} 
+.btn-info >.MuiButton-contained { 
+  background-color: var(--pecific_blue-shadow-100) !important;
+  color: var(--text-white) !important;
+}  
+
+/* outlined */
+
+.btn-primary >.MuiButton-outlined { 
+  border: var(--btn-sm-outline-primary) ! important;
+  color: var(--primary-80) ! important;
+  background-color: inherit ! important;
+}  
+.btn-success >.MuiButton-outlined { 
+  border: var(--btn-sm-outline-success) ! important;
+  color: var(--success-100) ! important;
+  background-color: inherit ! important;
+}  
+.btn-warning >.MuiButton-outlined { 
+  border: var(--btn-sm-outline-warning) ! important;
+  color: var(--warning-100) ! important;
+  background-color: inherit ! important;
+}  
+.btn-danger >.MuiButton-outlined { 
+  border: var(--btn-sm-outline-danger) ! important;
+  color: var(--danger-100) ! important;
+  background-color: inherit ! important;
+} 
+.btn-info >.MuiButton-outlined { 
+  border: var(--btn-sm-outline-info) ! important;
+  color: var(--info-100) ! important;
+  background-color: inherit ! important;
+}  
+
+/* Text */
+
+.btn-primary >.MuiButton-text { 
+  color: var(--primary-80) ! important;
+  background-color: inherit ! important;  
+}  
+.btn-success >.MuiButton-text { 
+  color: var(--success-100) ! important;
+  background-color: inherit ! important;
+}  
+.btn-warning >.MuiButton-text { 
+  color: var(--warning-100) ! important;
+  background-color: inherit ! important;
+}  
+.btn-danger >.MuiButton-text { 
+  color: var(--danger-100) ! important;
+  background-color: inherit ! important;
+} 
+.btn-info >.MuiButton-text {  
+  color: var(--info-100) ! important;
+  background-color: inherit ! important;
+} 
+
+/* Sizes */
+
+.btnSmall > .MuiButtonBase-root {
+  padding: var(--sm-button-padding) !important; 
+  font-size: var(--button-font-size) !important;   
+  border-radius: var(--button-border-curve) !important; 
+  font-weight: 600 !important;
+  line-height: var(--button-line-height) !important;   
+} 
+
+.btnSmall >.MuiButtonBase-root >.MuiButton-startIcon {
+  margin-left: 2px !important;
+  margin-right: 8px !important;
+}
+
+.btnSmall >.MuiButtonBase-root >.MuiButton-endIcon {
+  margin-right: 2px !important;
+  margin-left: 8px !important;     
+}
+
+.btnLarge > .MuiButtonBase-root {
+  padding: var(--lg-button-padding) !important; 
+  font-size: var(--button-font-size) !important;   
+  border-radius: var(--button-border-curve) !important; 
+  font-weight: 600 !important;
+  line-height: var(--button-line-height) !important;   
+}   
+
+.btnLarge >.MuiButtonBase-root >.MuiButton-startIcon {
+  margin-left: 3px !important;
+  margin-right: 8px !important;
+}
+
+.btnLarge >.MuiButtonBase-root >.MuiButton-endIcon {
+  margin-right: 3px !important;
+  margin-left: 8px !important;      
+}
+
+
+/* hover contained */
+
+.btn-primary >.MuiButton-contained:hover { 
+  background-color: var(--primary-hover-bg) !important;
+  color: var(--text-white) !important;  
+}  
+
+.btn-success >.MuiButton-contained:hover { 
+  background-color: var(--success-80) !important;
+  color: var(--text-white) !important;  
+}  
+
+.btn-warning >.MuiButton-contained:hover { 
+  background-color: var(--warning-80) !important;
+  color: var(--text-white) !important;  
+}  
+
+.btn-danger >.MuiButton-contained:hover { 
+  background-color: var(--danger-80) !important;
+  color: var(--text-white) !important;  
+}  
+
+.btn-info >.MuiButton-contained:hover { 
+  background-color: var(--info-80) !important; 
+  color: var(--text-white) !important;  
+}  
+
+/* hover outlined */
+
+.btn-primary >.MuiButton-outlined:hover {   
+  border: 1px solid var(--primary-hover-bg) !important; 
+  color: var(--primary-hover-bg) !important;  
+}  
+.btn-success >.MuiButton-outlined:hover {   
+  border: 1px solid var(--success-80) !important; 
+  color: var(--success-80) !important;  
+}  
+.btn-warning >.MuiButton-outlined:hover {   
+  border: 1px solid var(--warning-80) !important; 
+  color: var(--warning-80) !important;  
+}  
+.btn-danger >.MuiButton-outlined:hover {   
+  border: 1px solid var(--danger-80) !important; 
+  color: var(--danger-80) !important;  
+}  
+.btn-info >.MuiButton-outlined:hover {   
+  border: 1px solid var(--info-80) !important; 
+  color: var(--info-80) !important;     
+}   
+
+
+/* hover Text */
+
+.btn-primary >.MuiButton-text:hover {   
+  color: var(--primary-hover-bg) !important;  
+}     
+.btn-success >.MuiButton-text:hover {   
+  color: var(--success-80) !important;  
+}     
+.btn-warning >.MuiButton-text:hover {   
+  color: var(--warning-80) !important;  
+}     
+.btn-danger >.MuiButton-text:hover {      
+  color: var(--danger-80) !important;   
+}     
+.btn-info >.MuiButton-text:hover {    
+  color: var(--info-80) !important;  
+}       
+
+/* Icon Coloring */
+
+.btn-primary >.MuiButton-contained >.MuiButton-startIcon,.btn-primary >.MuiButton-contained >.MuiButton-endIcon {
+  color: var(--text-white) !important;
+}
+.btn-primary >.MuiButton-outlined >.MuiButton-startIcon,.btn-primary >.MuiButton-outlined >.MuiButton-endIcon {
+  color: currentColor !important; 
+}
+
+/*  disabled */   
+
+/* contained disabled */
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root.Mui-disabled {
+  border: 1px solid var(--primary-disabled) !important;
+  color: var(--primary-disabled) !important;  
+} 
+/* outlined disabled */
+.css-sghohy-MuiButtonBase-root-MuiButton-root.Mui-disabled{
+  background-color: var(--primary-disabled) !important;
+  color: var(--primary-hover-color) !important;
+} 
+/* text disabled */
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root.Mui-disabled {
+  color: var(--primary-disabled) !important;  
+}

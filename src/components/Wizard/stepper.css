@@ -1,0 +1,167 @@
+@import "../../assets/css/variable.css";
+
+@font-face {
+  font-family: "icomoon";
+  src: url(../../assets/fonts/icomoonlatest.ttf);
+}
+
+/* Wizard css */
+
+/* basics */
+
+.stepper-content {
+  padding: 34px 0px !important;
+}
+
+/* basics */
+
+.ant-steps-item-process>.ant-steps-item-container>.ant-steps-item-icon{
+  background-color: var(--primary-20) !important;
+}
+
+.ant-steps>.ant-steps-item-process>.ant-steps-item-container>.ant-steps-item-icon>.ant-steps-icon{
+  color: var(--primary-80) !important;
+}
+
+.ant-steps>.ant-steps-item>.ant-steps-item-container>.ant-steps-item-icon>.ant-steps-icon {
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  /* line-height: 16px !important; */
+  color: var(--text-inactive);
+}
+
+.ant-steps .ant-steps-item-icon .ant-steps-icon {
+  color: var(--text-inactive) !important;
+}
+.ant-steps-finish-icon>svg {
+  display: none;
+}
+
+.ant-steps>.ant-steps-item-finish>.ant-steps-item-container>.ant-steps-item-icon>.ant-steps-icon>.ant-steps-finish-icon {
+  color: var(--brand-white) !important;
+}
+
+.ant-steps.ant-steps-navigation .ant-steps-item.ant-steps-item-active::before{
+  background-color: var(--primary-80) !important;
+  height: 2px !important;
+}
+
+:where(.css-dev-only-do-not-override-j0nf2s).ant-steps.ant-steps-navigation .ant-steps-item::before {
+  left: 0 !important;
+  height: 1px !important;
+  width: -webkit-fill-available !important;
+  background-color: var(--input-border-color) !important;
+}
+
+.ant-steps-item-process .ant-steps-item-icon{
+  border-color: var(--primary-80) !important;
+}
+
+.ant-steps-navigation .ant-steps-item::after {
+  width: 10px;
+  height: 10px;
+  border-top: 1.5px solid var(--default-switch) !important;
+  border-inline-end: 1.5px solid var(--default-switch) !important;
+}
+
+.ant-steps-item-finish>.ant-steps-item-container>.ant-steps-item-icon{
+  background-color: var(--success-80) !important;
+  border-color: var(--success-80) !important;
+}
+.ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-icon::before{
+  content: "\e9a2";
+    font-family: "icomoon";
+    font-size: 30px;
+    position: relative;
+    left: -4px;
+    color: var(--brand-white);
+    top: -1px;
+}
+.ant-steps-item-error > .ant-steps-item-container > .ant-steps-item-icon::before{
+  content: "\E9B8";
+    font-family: "icomoon";
+    font-size: 30px;
+    position: relative;
+    left: -4px;
+    color: var(--warning-80);
+    top: -1px;
+}
+
+.ant-steps .ant-steps-item-wait .ant-steps-item-icon {
+  background-color: transparent !important;
+}
+
+.ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-icon > .ant-steps-icon{
+  display: block;
+}
+
+.ant-steps-item-icon>.ant-steps-icon >span{
+  display: none;
+}
+
+.ant-steps.ant-steps-vertical >.ant-steps-item .ant-steps-item-icon{
+  margin: auto;
+}
+.ant-steps-item-title{
+  padding-inline-start: 12px;
+  padding-inline-end: 12px !important;
+  width: max-content;
+}
+
+.ant-steps-item-error>.ant-steps-item-container>.ant-steps-item-icon{
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.ant-steps-item-wait .ant-steps-item-icon{
+  border-color: var(--primary-disabled) !important;
+}
+
+.ant-steps >.ant-steps-item-error>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title {
+  color: var(--warning-80) !important;
+}
+
+.ant-steps.ant-steps-navigation .ant-steps-item::after{
+  width: 10px !important;
+  height: 10px !important;
+}
+
+/* vertical stepper */
+
+.verticalStepper{
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+
+.ant-steps.ant-steps-vertical{
+  height: 22vw !important;
+}
+.ant-steps.ant-steps-vertical>.ant-steps-item{
+  width: 10vw !important;
+}
+.ant-steps.ant-steps-vertical.ant-steps-small .ant-steps-item-container .ant-steps-item-tail{
+  padding: 24px 0 0px !important;
+  inset-inline-start: 12px !important;
+}
+
+.ant-steps-item-finish>.ant-steps-item-container>.ant-steps-item-tail::after{
+  background-color: var(--success-80) !important;
+}
+
+.ant-steps-item-process>.ant-steps-item-container>.ant-steps-item-tail::after{
+  background-color: var(--primary-80) !important;
+}
+.ant-steps-item-error>.ant-steps-item-container>.ant-steps-item-tail::after{
+  background-color: var(--warning-80) !important;
+}
+
+
+.verticalStepper>div>div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.verticalStepper>div>div>.stepper-content{
+  padding: 0 !important;
+}

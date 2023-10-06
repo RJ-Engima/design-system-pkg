@@ -1,0 +1,223 @@
+
+@import "../../assets/css/variable.css";
+
+@font-face {
+  font-family: "icomoon";
+  src: url(../../assets/fonts/icomoonlatest.ttf);
+}
+
+
+/* treeSelect css */
+
+.ant-tree-select .drop-sm {
+  min-width: var(--input-min-width) ! important;
+  width: var(--input-min-width) ! important;
+  font-weight: var(--input-font-weight) !important;
+  font-size: var(--input-font-size) !important;
+  line-height: var(--input-line-height) !important;
+  letter-spacing: 0! important;
+  border-radius: var(--input-border-radius) !important;
+  border: var(--input-border-size) solid var(--input-border-color)! important;
+  height: var(--input-height-sm) !important;
+}
+
+.ant-tree-select .drop-lg {
+  min-width: var(--input-min-width) ! important;
+  width: var(--input-min-width) ! important;
+  font-weight: var(--input-font-weight) !important;
+  font-size: var(--input-font-size) !important;
+  line-height: var(--input-line-height) !important;
+  letter-spacing: 0! important;
+  border-radius: var(--input-border-radius) !important;
+  border: var(--input-border-size) solid var(--input-border-color)! important;
+  height: var(--input-height-lg) !important;
+}
+
+.ant-select-tree-list-holder-inner>.ant-select-tree-treenode-checkbox-indeterminate{
+  background-color: var(--primary-30) !important;
+  width: -webkit-fill-available;
+  height: 47px;
+  display: flex !important;
+  align-items: center !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 23px !important;
+  color: var(--primary-80) !important;
+}
+
+.ant-select-tree-list-holder-inner>.ant-select-tree-treenode-switcher-open {
+  width: -webkit-fill-available;
+  height: 47px;
+  display: flex !important;
+  align-items: center !important;
+}
+.ant-select-tree-list-holder-inner>.ant-select-tree-treenode-checkbox-checked{
+  width: -webkit-fill-available;
+  height: 47px;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.ant-select-tree-treenode-leaf-last{
+  background-color: #FFFFFF;
+}
+.ant-select-tree-treenode-checkbox-checked{
+  color: var(--primary-80) !important;
+}
+
+.ant-select-tree-treenode{
+  width: -webkit-fill-available;
+  height: 47px;
+  display: flex !important;
+  align-items: center !important;
+}
+
+
+.ant-select-tree-switcher{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+
+.ant-select-tree-list-holder-inner>.ant-select-tree-treenode-switcher-open,.ant-select-tree-treenode .ant-select-tree-treenode-switcher-close{
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 23px !important;
+  color: var(--heading-text) !important;
+}
+
+.ant-select-tree-list-holder-inner>.ant-select-tree-treenode-checkbox-indeterminate{
+  background-color: var(--primary-30) !important;
+}
+
+.ant-select-tree-list-holder-inner>.ant-select-tree-treenode-switcher-open{
+  background-color: var(--primary-30) !important;
+}
+
+.ant-select-tree-list-holder-inner>.ant-select-tree-treenode-checkbox-indeterminate {
+  background-color: var(--primary-30) !important;
+  color: var(--primary-80) !important;
+}
+
+.ant-select-tree-list-holder-inner>.ant-select-tree-treenode-checkbox-checked:first-child{
+  background-color: var(--primary-30) !important;
+  color: var(--primary-80) !important;
+}
+
+.ant-select-tree-list-holder-inner>.ant-select-tree-treenode-leaf-last:first-child{
+  background-color: var(--primary-30) !important;
+  color: var(--primary-80) !important;
+}
+
+.ant-select-tree-treenode-checkbox-checked>.ant-select-tree-node-content-wrapper {
+  color: var(--primary-80) !important;
+}
+
+.ant-tree-select-dropdown .ant-select-tree .ant-select-tree-checkbox+span:hover{
+  background-color: inherit !important;
+  color: var(--primary-80) !important;
+}
+
+.ant-select-tree-treenode{
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  color: var(--heading-text) !important;
+}
+
+.ant-tree-select-dropdown .ant-select-tree-checkbox .ant-select-tree-checkbox-inner {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.ant-select-tree-checkbox >.ant-select-tree-checkbox-inner::after{
+    width: 6px !important;
+    height: 13px !important;
+    border-radius: 0.5px !important;
+}
+
+.ant-select-tree-checkbox-indeterminate >.ant-select-tree-checkbox-inner::after{
+    height: 2px !important;
+    width: 10px !important;
+    color: var(--text-white) !important;
+}
+
+.ant-select-tree-switcher>.ant-select-tree-switcher-icon>svg{
+  display: none;
+}
+
+.ant-select-tree-switcher_open >.anticon-caret-down::after{
+  font-weight: 600;
+  content: '\E92F';
+  font-family: "icomoon";
+  font-size: 16px;
+}
+
+.ant-select-tree-switcher_close >.anticon-caret-down::after{
+  font-weight: 600;
+  font-size: 16px;
+  content: '\E92D';
+  font-family: "icomoon";
+}
+
+
+/* helper text */
+.success-text {
+  font-weight: var(--input-helper-font-weight) !important;
+  font-size: var(--input-helper-font-size) ! important;
+  line-height: var(--input-helper-line-height) ! important;
+  letter-spacing: 0! important;
+  color: var(--success-80)! important;
+}
+
+.error-text {
+  font-weight: var(--input-helper-font-weight) !important;
+  font-size: var(--input-helper-font-size) ! important;
+  line-height: var(--input-helper-line-height) ! important;
+  letter-spacing: 0.004em! important;
+  color: var(--danger-80) ! important;
+}
+
+.drop-sm:focus-within {
+  border-color: var(--input-font-color) !important;
+}
+
+.drop-lg:focus-within {
+  border-color: var(--input-font-color) !important;
+}
+
+ .drop-sm:hover {
+  border-color: var(--primary-80) !important;
+}
+
+.drop-lg:hover {
+  border-color: var(--primary-80) !important;
+}
+
+.ant-select-tree-checkbox-inner::before {
+  color: var(--brand-white) !important;
+}
+:where(.css-dev-only-do-not-override-14wwjjs).ant-tree-select-dropdown .ant-select-tree-checkbox-checked .ant-select-tree-checkbox-inner{
+  background-color: var(--primary-80) !important;
+}
+
+
+/* font size corrections */
+
+.ant-select-tree-node-content-wrapper-open>.ant-select-tree-title{
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 20px !important;
+  font-style: normal !important;
+}
+
+.ant-select-tree-title{
+  font-size: 14px;
+  font-weight: 100 !important;
+  line-height: 20px;
+  font-style: normal;
+}

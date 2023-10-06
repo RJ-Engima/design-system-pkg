@@ -1,0 +1,601 @@
+/*!
+** M2P Design System global variable.css v1.0.0 -------- (Version updates)
+** Copyright 2022-2013.
+** Created by "Dilipkumar Baskar" ----------------------- (Owner name)
+** Created on 25/05/2022. ------------------------------ (Created date)
+
+*/
+
+/* Brand Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/* Arabic Font */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;600&display=swap");
+/* Support Font */
+@import url("https://fonts.googleapis.com/css2?family=Port+Lligat+Sans&display=swap");
+
+@font-face {
+  font-family: Public-Sans;
+  src: url(../fonts/Public_Sans/static/PublicSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Public-Sans-semi-bold;
+  src: url(../fonts/Public_Sans/static/PublicSans-SemiBold.ttf);
+}
+
+body,.MuiTypography-root,p,h1,h2,h3,h4,h5,h6,div,label,input {
+  font-family: var(--Public-Sans) !important;
+}
+/* FONTS USED */
+
+:root {
+  /* Primary-brand color palette */
+  --Public-Sans: Public-Sans !important;
+
+  --primary-disabled: #A9AEB1;
+
+  /*  */
+  --primary: #064CD0;
+  --primary-100: #021538;
+  --primary-90: #032157;
+  --primary-85: #042A70;
+  --primary-80: #064CD0;
+  --primary-60: #3068D0;
+  --primary-40: #BAD2FF;
+  --primary-30: #D9E6FF;
+  --primary-25: #E8F0FF;
+  --primary-20: #EDF3FF;
+  --primary-10: #F5F8FF;
+
+  /* theme Axis */
+
+  --theme-axis: #AE285D;
+  --theme-axis-100: #380218;
+  --theme-axis-90: #570325;
+  --theme-axis-85: #70042F;
+  --theme-axis-80: #AE285D;
+  --theme-axis-60: #D03070;
+  --theme-axis-40: #FFBAD6;
+  --theme-axis-30: #FFD9E8;
+  --theme-axis-25: #FFE8F1;
+  --theme-axis-20: #FFEDF4;
+  --theme-axis-10: #FFF5F9;
+
+  /* theme IDIB */
+
+  --theme-idib: #2E875C;
+  --theme-idib-100: #02381E;
+  --theme-idib-90: #03572E;
+  --theme-idib-85: #04703C;
+  --theme-idib-80: #2E875C;
+  --theme-idib-60: #30D083;
+  --theme-idib-40: #BAFFDE;
+  --theme-idib-30: #D9FFED;
+  --theme-idib-25: #E8FFF4;
+  --theme-idib-20: #EDFFF6;
+  --theme-idib-10: #F5FFFA;
+
+  /* theme USFB */
+
+  --theme-usfb: #5D239B;
+  --theme-usfb-100: #1C0238;
+  --theme-usfb-90: #2C0357;
+  --theme-usfb-85: #380470;
+  --theme-usfb-80: #5D239B;
+  --theme-usfb-60: #7D30D0;
+  --theme-usfb-40: #DBBAFF;
+  --theme-usfb-30: #EBD9FF;
+  --theme-usfb-25: #F3E8FF;
+  --theme-usfb-20: #F6EDFF;
+  --theme-usfb-10: #FAF5FF;
+
+  --brand-color: #D02127 ! important;
+  --brand-black: #151515;
+  --brand-white: #fff;
+
+  /* Brand Fonts */
+  --brand-font: "Roboto", sans-serif;
+  --arabic-font: "Noto Sans Arabic", sans-serif;
+  --support-font: "Port Lligat Sans", sans-serif;
+
+  /* Primary-text color palette */
+  --text-primary: #1C1D1F;
+  --text-inactive: #A9AEB1;
+  --text-white: #ffffff;
+  --text-success: #1c592a;
+  --text-error: #D83933;
+  --text-warning: #DD7533;
+  --text-info: #4F97D1;
+
+  /* Text typography css */
+  --text-brand: #D02127 ! important;
+
+  /* - Ripple Effect - */
+  --ripple-effect-dark-bg: #484848;
+
+  /* Color palette shadow */
+  /* Green */
+  --success-100: #1E873C;
+  --success-80: #24A148;
+  --success-60: #50B46D;
+  --success-40: #7CC791;
+  --success-20: #d1ebd7;
+  --success-10: #E9F6ED;
+
+  /* danger colour pallet */
+  --danger-100: #A23737 ;
+  --danger-80: #D83933;
+  --danger-60: #E9645F;;
+  --danger-40: #F7B3B1;
+  --danger-20: #F8DFDE;
+  --danger-10: #F9EEEE;
+
+  /* Yellow */
+  --warning-100: #A86437;
+  --warning-80: #DD7533;
+  --warning-60: #F09860;
+  --warning-40: #F3BF90;
+  --warning-20: #F3E4D4;
+  --warning-10: #F6EFE9;
+
+  /* Info color pallet */
+  --info-100: #2378C3;
+  --info-80: #4F97D1;
+  --info-60: #73B3E7;
+  --info-40: #AACDEC;
+  --info-20: #D9E8F6;
+  --info-10: #EFF6FB;
+
+  /* Imperial Red */
+  --imperial_red-shadow-100: #e63946;
+  --imperial_red-shadow-80: #ea5560;
+  --imperial_red-shadow-60: #f18f96;
+  --imperial_red-shadow-40: #f5b1b6;
+  --imperial_red-shadow-20: #fad3d6;
+  --imperial_red-shadow-10: #fce4e5;
+  --imperial_red-shadow-6: #fdf1f2;
+
+  /* Yellow */
+  --yellow-shadow-100: #e4ac04;
+  --yellow-shadow-80: #e9bd36;
+  --yellow-shadow-60: #f5de99;
+  --yellow-shadow-40: #f8e8b8;
+  --yellow-shadow-20: #fbf2d7;
+  --yellow-shadow-10: #fdf7e6;
+  --yellow-shadow-6: #fefbf3;
+
+  /* Pecific Blue */
+  --pecific_blue-shadow-100: #17a1b7;
+  --pecific_blue-shadow-80: #38aec1;
+  --pecific_blue-shadow-60: #7cc9d6;
+  --pecific_blue-shadow-40: #a3dae2;
+  --pecific_blue-shadow-20: #cbeaef;
+  --pecific_blue-shadow-10: #dff2f5;
+  --pecific_blue-shadow-6: #eff9fa;
+
+
+
+  /* Ocean Blue */
+  --ocena_blue-shadow-100: #5d3bbd;
+  --ocena_blue-shadow-80: #6f50c7;
+  --ocena_blue-shadow-60: #a08bda;
+  --ocena_blue-shadow-40: #bdafe5;
+  --ocena_blue-shadow-20: #dad2f1;
+  --ocena_blue-shadow-10: #e8e3f6;
+  --ocena_blue-shadow-6: #f3f1fb;
+
+  /* Davys Grey */
+  --grey-shadow-100: #4d4e50;
+  --grey-shadow-80: #656769;
+  --grey-shadow-60: #999b9c;
+  --grey-shadow-40: #b8b9ba;
+  --grey-shadow-20: #d7d8d8;
+  --grey-shadow-10: #e6e7e7;
+  --grey-shadow-6: #f3f3f3;
+
+  /* Orange */
+  --orange-shadow-100: #D02127 ! important;
+  --orange-shadow-80: #f58d40;
+  --orange-shadow-60: #f8b481;
+  --orange-shadow-40: #facba7;
+  --orange-shadow-20: #fde1cd;
+  --orange-shadow-10: #fdede0;
+  --orange-shadow-6: #fef6f0;
+
+  /* Input color palette */
+
+  --input-border-color: #d2d2d3;
+  --input-disabled-border-color: #afaeaf;
+
+  /* Basic Margin Property sytles */
+
+  --no-margin: 0px;
+  --mt-0: 0px;
+  --mb-0: 0px;
+  --ml-0: 0px;
+  --mr-0: 0px;
+
+  /* Basic Padding Property sytles */
+
+  --no-padding: 0px;
+  --pt-0: 0px;
+  --pr-0: 0px;
+  --pb-0: 0px;
+  --pl-0: 0px;
+
+
+  /* Text colors */
+  --heading-text: #1C1D1F;
+  --body-text : #3D4551;
+  --caption-text: #71767A;
+  --disabled-text:#A9AEB1;
+
+
+
+  /* Brand-font-face Typography */
+
+  /* Heading1 config */
+  --heading1-font-size: 48px;
+  --heading1-line-height: 50px;
+  --heading1-letter-space: 0;
+
+  /* Heading2 config */
+  --heading2-font-size: 34px;
+  --heading2-line-height: 36px;
+  --Heading2-letter-space: 0.25px;
+
+  /* Heading3 config */
+  --heading3-font-size: 24px;
+  --heading3-line-height: 26px;
+  --Heading3-letter-space: 0;
+
+  /* Heading4 config */
+  --heading4-font-size: 20px;
+  --heading4-line-height: 22px;
+  --Heading4-letter-space: 0.15px;
+
+  /* subtitlt1 config */
+  --subtittle1-font-size: 16px;
+  --subtitle1-line-height: 20px;
+  --subtitlt1-letter-space: 0.15px;
+
+  /* subtitlt2 config */
+  --subtittle2-font-size: 14px;
+  --subtitle2-line-height: 16px;
+  --subtitlt2-letter-space: 0.1px;
+
+  /* bodytext1 config */
+  --bodytext1-font-size: 16px;
+  --bodytext1-line-height: 20px;
+  --bodytext1-letter-space: 0.5px;
+
+  /* bodytext2 config */
+  --bodytext2-font-size: 14px;
+  --bodytext2-line-height: 16px;
+  --bodytext2-letter-space: 0.25px;
+
+  /* captiontext config */
+  --caption-font-size: 12px;
+  --captiontext-line-height: 14px;
+  --captiontext-letter-space: 0.4px;
+
+  /* labeltext config */
+  --label-font-size: 12px;
+  --labeltext-line-height: 14px;
+  --labeltext-letter-space: 0.4px;
+
+  /* disclaimer config */
+  --disclaimer-font-size: 10px;
+  --disclaimer-line-height: 16px;
+  --disclaimer-letter-space: 0.25px;
+
+  /* Arabic-font-face Typography */
+
+  /* Heading1 config */
+  --heading1-font-size: 48px;
+  --heading1-line-height: 50px;
+  --heading1-letter-space: 0;
+
+  /* Heading2 config */
+  --heading2-font-size: 34px;
+  --heading2-line-height: 36px;
+  --Heading2-letter-space: 0.25px;
+
+  /* Heading3 config */
+  --heading3-font-size: 24px;
+  --heading3-line-height: 26px;
+  --Heading3-letter-space: 0;
+
+  /* Heading4 config */
+  --heading4-font-size: 20px;
+  --heading4-line-height: 22px;
+  --Heading4-letter-space: 0.15px;
+
+  /* subtitlt1 config */
+  --subtittle1-font-size: 16px;
+  --subtitle1-line-height: 20px;
+  --subtitlt1-letter-space: 0.15px;
+
+  /* subtitlt2 config */
+  --subtittle2-font-size: 14px;
+  --subtitle2-line-height: 16px;
+  --subtitlt2-letter-space: 0.1px;
+
+  /* bodytext1 config */
+  --bodytext1-font-size: 16px;
+  --bodytext1-line-height: 20px;
+  --bodytext1-letter-space: 0.5px;
+
+  /* bodytext2 config */
+  --bodytext2-font-size: 14px;
+  --bodytext2-line-height: 16px;
+  --bodytext2-letter-space: 0.25px;
+
+  /* captiontext config */
+  --caption-font-size: 12px;
+  --caption-line-height: 14px;
+  --caption-letter-space: 0.4px;
+
+  /* labeltext config */
+  --label-font-size: 12px;
+  --label-line-height: 14px;
+  --label-letter-space: 0.4px;
+
+  /* disclaimer config */
+  --disclaimer-font-size: 10px;
+  --disclaimer-line-height: 16px;
+  --disclaimer-letter-space: 0.25px;
+
+  /* Table font */
+  --table-font-size: 12px;
+  --table-line-height: 16px;
+
+  /* icons */
+
+  --icon-width: 16px;
+  --icon-height: 16px;
+
+/* button default color */
+  --btn-default: #0052CC;
+/* button deafult color */
+
+/* Add button sm */
+  --addsm-button-width: 32px;
+  --addsm-button-height: 32px;
+  --addsm-button-padding: 6px 16px;
+
+  /* Add button sm */
+  --addmd-button-width: 40px;
+  --addmd-button-height: 40px;
+  --addmd-button-padding: 8px;
+
+  /* Add button lg */
+  --addlg-button-width: 44px;
+  --addlg-button-height: 44px;
+  --addlg-button-padding: 12px 16px;
+
+  /* Buttons */
+
+  /* Button Outlined colors */
+  --btn-sm-outline-primary: 1px solid var(--primary);
+  --btn-sm-outline-success: 1px solid var(--success-100);
+  --btn-sm-outline-warning: 1px solid var(--warning-100);
+  --btn-sm-outline-danger: 1px solid var(--danger-100);
+  --btn-sm-outline-info: 1px solid var(--info-100);
+  /* Button Outlined colors */
+
+  /* Button outline border color on hover */
+  --btn-sm-outline-primary-hover: 1px solid #b8b9ba;
+  --btn-sm-outline-success-hover: 1px solid #aedcb9;
+  --btn-sm-outline-warning-hover: 1px solid #facba7;
+  --btn-sm-outline-danger-hover: 1px solid #f5b1b6;
+  --btn-sm-outline-info-hover: 1px solid #a3dae2;
+  /* Button disabled */
+  --btn-primary-disabled: #BAD2FF;
+
+  /* Button outline border color on hover */
+
+--button-border-curve: 4px;
+  --button-font-size: 14px;
+  --button--border-line: 1px;
+  --button-line-height: 16px;
+  --button-letter-space: 0.2px; /* (1.25% converted into px) */
+
+  /*  ===== Small Buttons ===== */
+
+  --sm-button-padding: 8px 16px;
+  --sm-button-height: 32px;
+  --sm-button-width: 77px;
+
+  /*  ===== Medium Buttons ===== */
+  --md-button-padding: 12px 16px;
+  --md-button-height: 40px;
+  --md-button-width: 80px;
+
+  /*  ===== Large Buttons ===== */
+  --lg-button-padding: 14px 16px;
+  --lg-button-height: 44px;
+  --lg-button-width: 77px;
+
+  /* === Button icons sizes */
+  --button-icons-width: 20px;
+  --button-icons-height: 20px;
+
+  /* === Button icons Small button  === */
+  --button-sm-i-padding: 4px 16px;
+  --button-sm-i-height: 32px;
+  --button-sm-i-width: 112px;
+
+  /* ==== Button icons ==== */
+  --button-icon-height: 20px;
+  --button-icon-left-padding: 8px;
+  --button-icon-padding: 8px;
+
+  /* ==== Button icons ==== */
+  --button-sm-double-width: 144px;
+  --button-md-double-width: 144px;
+  --button-lg-double-width: 144px;
+  --button-md-i-padding: 8px 16px;
+  --button-lg-i-padding: 16px;
+
+  --button-md-i-height: 40px;
+  --button-lg-i-height: 44px;
+  /* ====== Form components ======  */
+
+  /* === Alert Button colors === */
+
+  --alert-letter-spacing: 0.0025em;
+  --alert-box-padding: 16px;
+  --alert-box-height: 56px;
+  --alert-box-height-lg: 78px;
+  --alert-box-width: 332px;
+
+  --form-group-margin-bottom: 24px;
+
+  /* Input Label */
+  --label-font-size : 12px;
+  --label-margin-bottom: 5px;
+  --label-line-height: 16px;
+  --label-letter-spacing: 0.064px;
+  --label-font-weight: 600;
+  --label-font-color: #71767A;
+
+  /* Inputs */
+  --input-font-size: 14px;
+  --input-line-height: 20px;
+  --input-font-color: #1C1D1F;
+  --input-font-weight: 400;
+  --input-border-size: 1px;
+  --input-border-radius: 4px;
+  --input-border-color: #C6CACE;
+  --input-padding-sm: 6px 8px;
+  --input-padding-md: 12px 8px;
+  --input-padding-lg: 12px 8px;
+  --input-height-sm: 32px;
+  --input-height-md: 40px;
+  --input-height-lg: 44px;
+  --input-min-width: 240px;
+  --input-append-top: 13px;
+  --input-append-right: 16px;
+  --country-code-append-left: 8px;
+  --country-code-select-font-size: 12px;
+  --country-code-select-top: 12px;
+  --country-code-line-height: 14px;
+  --append-input-padding-left: 72px;
+  --custom-dropdown-width: 200px;
+  --custom--dropdown-height: 220px;
+  --dropdown-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+  --custom-dropdown-list-padding: 8px 10px;
+  --textarea-padding: 8px;
+  --input-disabled-bg: #F1F3F6;
+
+  /* Breadcrumb */
+  --breadcrumb-font-size: 12px;
+  --breadcrumb-padding: 10px 16px;
+  --breadcrumb-radius: 4px;
+  --breadcrumb-padding-right: 4px;
+  --breadcrumb-divider-icon: 16px;
+  --breadcrumb-line-height: 14px;
+  --breadcrumb-letter-speacing: 0.064px;
+
+  /* Badge */
+  --badge-border-corner: 4px;
+  --badge-font-size: 12px;
+  --badge-letter-spacing: 0.064px;
+  --badge-padding: 5px 8px;
+  --badge-line-height: 14px;
+
+  /* Wizard */
+  --wizard-background: #c4c4c4;
+  --wizard-border-curve: 8px;
+  --wizard-letter-spacing: 0.064px;
+  --wizard-textbox-width: 24px;
+  --wizard-textbox-height: 24px;
+  --wizard-progress-bar-height: 2px;
+  /* Tabs */
+  --tab-line-height: 20px;
+  --tab-font-size: 16px;
+
+  /* Input Helper text */
+  --input-helper-font-weight: 400;
+  --input-helper-font-size: 10px;
+  --input-helper-line-height: 14px;
+  --input-helper-letter-spacing: 0.064px;
+  --input-helper-margin-top: 5px;
+
+  /*  ===== small inputs ===== */
+  --sm-input-padding: 8px 16px;
+  /*  ===== default inputs ===== */
+  --default-input-padding: 8px 16px;
+  /*  ===== Medium inputs ===== */
+  --sm-input-padding: 12px 16px;
+  /*  ===== Large inputs ===== */
+  --l-input-padding: 16px;
+
+  /* Extra elements css */
+  --sup-top: -4px;
+
+  /* Media Screens Values */
+
+  --laptop: "only screen and (min-width: 1440px)";
+  --desktop: "only screen and (min-width: 1920px)";
+
+  /* Table */
+
+  --table-cell-height: 48px;
+
+  /* Ripple Effect  */
+
+  --ripple-color: rgba(0, 0, 0, 0.6);
+  --ripple-color: rgba(255, 255, 255, 0.3);
+  --ripple-color: rgba(255, 0, 0, 0.3);
+  --ripple-fuzz: 30px;
+  --ripple-duration: 1s;
+  --ripple-duration: 3s;
+
+  /* hover Color */
+
+  --primary-hover-bg: #0368D0;
+  --primary-hover-color: #FBFCFD;
+
+  /* alert  */
+
+  /* success */
+
+  --success-line: #4FB366;
+
+  --alert-success-bg: #E9F6ED;
+  --alert-danger-bg: #F9EEEE;
+  --alert-info-bg: #EFF6FB;
+
+  /* hyperlinkColor */
+
+  --hyperLink :#3E4DED;
+
+  --tab-underline: #EDEFF0;
+
+
+  /* alert */
+
+  /* swicthes */
+
+  --default-switch: #6A7585;
+
+  /* SideBar Colors */
+    /* Dark */
+    --dashboard-dark-bg : #010814;
+    --dashboard-icon : #8D9297;
+    --dashboard-title: #DFE1E2;
+    --dashboard-close-icon: #0054AD;
+    --dashboard-selected-menu-dark: #0054AD;
+    --dashboard-hover-color: #87B1FF;
+    --dashboard-group-bg: #1E1E1F;
+
+
+}
+
+.MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label{
+  font-size: var(--label-font-size) !important;
+  line-height: var(--label-line-height);
+  font-weight: var(--label-font-weight);
+}

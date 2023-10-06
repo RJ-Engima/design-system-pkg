@@ -1,0 +1,97 @@
+
+@import "../../assets/css/variable.css";
+
+@font-face {
+  font-family: "icomoon";
+  src: url(../../assets/fonts/icomoonlatest.ttf);
+}
+
+.acc-up::after {
+  content: '\E92F';
+  font-family: 'icomoon';
+  font-size: 16px;
+}
+
+.accordion-item {
+  border: 1px solid var(--tab-underline) !important;
+  margin: 4px 0px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.MuiAccordion-root{
+  background-color: var(--primary-hover-color) !important;
+}
+
+.accordion-item>.Mui-expanded{
+  min-height: 40px;
+  background-color: var(--primary-20);
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:before{
+  background-color: transparent !important;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded {
+  margin: 4px 0px !important;
+}
+
+.css-o4b71y-MuiAccordionSummary-content.Mui-expanded{
+  margin: 12px auto !important;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root{
+  box-shadow: none !important;
+}
+
+.css-15v22id-MuiAccordionDetails-root {
+  padding: 16px !important;
+  background-color: var(--primary-hover-color) !important;
+}
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+  min-height: 40px !important;
+  padding: 0px 16px !important;
+}
+
+.accordion-header {
+  border: 1px solid var(--tab-underline);
+  background-color: var(--primary-20);
+}
+
+.accordion-body {
+  background: var(--primary-hover-color);
+  border-bottom: 1px solid #B8B9BA;
+  font-family: demi-regular !important;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .accordion-item{
+    width: 100% !important
+  }
+}
+
+.MuiAccordion-root {
+  border-top-left-radius: 4px  !important;
+  border-top-right-radius: 4px !important;
+  border-bottom-left-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-disabled {
+  background-color: var(--brand-white) !important;
+}
+
+
+/* custom Icon Variant  */
+
+.customIcon{
+  display: flex !important;
+  align-items: center !important;
+  margin-right: 10px !important;
+  font-size: 20px !important;
+  height: 24px !important;
+  color: currentColor !important;
+}
+

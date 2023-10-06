@@ -1,0 +1,347 @@
+
+@import "../../assets/css/variable.css";
+
+@font-face {
+  font-family: "icomoon";
+  src: url(../../assets/fonts/icomoonlatest.ttf);
+}
+
+/* Date Picker Type */
+
+.ant-picker-datetime-panel,.ant-picker-footer {
+  background: var(--primary-hover-color) !important;
+}
+
+.ant-picker-panel > .ant-picker-footer {
+  background: var(--primary-hover-color) !important;
+  opacity: 1 !important;
+  background-color: var(--primary-hover-color) !important;
+}
+
+:where(.css-dev-only-do-not-override-14wwjjs).ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner::before {
+  border: 1px  solid var(--primary-80) !important;
+}
+:where(.css-dev-only-do-not-override-14wwjjs).ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner{
+  background: var(--primary-80) !important;
+}
+
+.datePicker {
+  min-width: var(--input-min-width) !important;
+  min-height: var(--input-height-sm) !important;
+  padding: var(--input-padding-sm) !important;
+  border-radius: var(--input-border-radius) !important;
+  border: 1px solid !important;
+  border-color: var(--input-border-color) !important;
+}
+
+.datePicker:hover{
+  border-color: var(--primary-80) !important;
+}
+
+.datePicker:focus-within {
+  border-color: var(--brand-black) !important;
+  box-shadow: none;
+}
+
+.ant-picker-dropdown {
+  background: var(--text-white) !important;
+}
+
+/* DropDown Picker */
+
+
+.ant-picker-panel  {
+  background: var(--primary-hover-color) !important;
+}
+
+
+.ant-picker-date-panel
+>.ant-picker-header {
+  padding: 0px 16px !important;
+  border-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+
+.ant-picker-header
+>.ant-picker-header-view {
+  color: var(--body-text) !important;
+  text-align: center !important;
+  font-family: Public Sans;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 16px !important;
+}
+
+
+.ant-picker-header
+>.ant-picker-header-super-prev-btn {
+  color: var(--body-text);
+}
+
+
+.ant-picker-header
+>.ant-picker-header-super-next-btn {
+  color: var(--body-text);
+}
+
+/* Ant Picker Body  */
+
+
+.ant-picker-date-panel
+>.ant-picker-body
+>table
+>thead
+>tr
+>th {
+  color:var(--caption-text) !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: lighter !important;
+  line-height: 16px !important;
+}
+
+.ant-picker-date-panel
+>.ant-picker-body{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.ant-picker-date-panel
+>.ant-picker-body
+>table
+>tbody
+>tr
+>td {
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 16px !important;
+}
+
+.ant-picker-date-panel
+>.ant-picker-body
+>table
+>tbody
+>tr
+>.ant-picker-cell-selected >.ant-picker-cell-inner {
+  background: var(--primary-80) !important;
+  border-radius: var(--input-border-radius) !important;
+  color: var(--primary-hover-color) !important;
+}
+
+
+.ant-picker-panel
+>.ant-picker-footer {
+  border-top: 0 !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  border-top: 1px solid !important;
+  border-color: var(--grey-shadow-20) !important;
+  margin-top: 8px !important;
+}
+
+.ant-picker-footer
+>.ant-picker-today-btn {
+  border-radius: 4px !important;
+  border: 1px solid;
+  border-color: var(--primary-80);
+  padding: 4px 8px !important;
+  color: var(--primary-80) !important;
+  text-decoration: none !important;
+  color: var(--primary-80) !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 16px !important;
+}
+
+
+/* Time Panel  */
+
+.ant-picker-header
+>.ant-picker-header-view {
+  color: var(--caption-text) !important;
+  text-align: center !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 16px !important;
+}
+
+.ant-picker-time-panel-column
+>.ant-picker-time-panel-cell-selected
+>.ant-picker-time-panel-cell-inner {
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  width: 20px;
+  height: 25px;
+  justify-content: center;
+  margin: auto;
+  background-color: var(--primary-80) !important;
+  color: var(--primary-hover-color) !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 16px !important;
+}
+
+.ant-picker-time-panel-column
+>.ant-picker-time-panel-cell
+>.ant-picker-time-panel-cell-inner {
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  width: 20px;
+  justify-content: center;
+  margin: auto;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 16px !important;
+}
+
+.ant-picker-time-panel-column
+>.ant-picker-time-panel-cell
+>.ant-picker-time-panel-cell-inner:hover {
+  background: var(--primary-20) !important;
+}
+
+.ant-picker-datetime-panel
+>.ant-picker-time-panel
+>.ant-picker-header {
+  padding: 12px 16px !important;
+}
+
+.ant-picker-panel
+>.ant-picker-footer
+>.ant-picker-ranges
+>.ant-picker-now {
+  border: 1px solid;
+  border-color: var(--primary-80);
+  border-radius: 4px;
+}
+
+.ant-picker-panel
+>.ant-picker-footer
+>.ant-picker-ranges{
+  line-height: 30px !important;
+}
+
+.ant-picker-panel
+>.ant-picker-footer
+>.ant-picker-ranges
+>.ant-picker-ok
+>button {
+  background: var(--primary-80);
+  color: var(--brand-white);
+  border: 1px solid !important;
+  padding: 4px 8px !important;
+  height: auto;
+  border-color: var(--primary-80) !important;
+}
+
+.ant-picker-panel
+>.ant-picker-footer
+>.ant-picker-ranges
+>.ant-picker-now
+>.ant-picker-now-btn {
+  text-decoration: none;
+  padding: 4px 8px !important;
+  color: var(--primary-80);
+}
+
+
+/* Custom Changed */
+
+.ant-picker-input>.ant-picker-suffix > i {
+  color: var(--brand-black) !important;
+}
+
+
+.ant-picker-header>.ant-picker-header-prev-btn{
+  margin-left: 16px;
+  color: var(--body-text);
+}
+
+.ant-picker-header>button{
+  color: var(--body-text) !important;
+}
+
+.ant-picker-header>.ant-picker-header-view{
+  color:  var(--text-primary);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.ant-picker-date-panel>.ant-picker-header>.ant-picker-header-next-btn{
+  margin-right: 16px;
+  color: var(--body-text);
+}
+
+.ant-picker-time-panel-column>.ant-picker-time-panel-cell>.ant-picker-time-panel-cell-inner{
+  width: auto !important;
+}
+
+:where(.css-dev-only-do-not-override-14wwjjs).ant-picker-dropdown .ant-picker-time-panel-column >li.ant-picker-time-panel-cell .ant-picker-time-panel-cell-inner {
+  padding-inline-start: 7px !important;
+  padding-inline-end: 7px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto !important;
+  width: fit-content !important;
+}
+
+.ant-picker-time-panel-column>.ant-picker-time-panel-cell-selected>.ant-picker-time-panel-cell-inner:hover{
+  background: var(--primary-80) !important;
+  color: var(--brand-white) !important;
+}
+
+/* Month Picker */
+
+.ant-picker-month-panel>.ant-picker-body>.ant-picker-content>tbody>tr
+  >.ant-picker-cell>.ant-picker-cell-inner {
+    min-width: 70px !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 16px !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Weekly Picker  */
+
+.ant-picker-week-panel
+  >.ant-picker-body
+  >.ant-picker-content
+  >thead
+  >tr
+  >th {
+    color : var(--caption-text) !important;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.ant-picker-week-panel
+>.ant-picker-body
+>.ant-picker-content
+>tbody
+>.ant-picker-week-panel-row-selected
+>td>.ant-picker-cell-inner {
+  background: var(--primary-80) !important;
+}
+
+:where(.css-dev-only-do-not-override-14wwjjs).ant-picker-dropdown .ant-picker-week-panel-row-selected td.ant-picker-cell:before{
+  background: var(--primary-80) !important;
+}
+

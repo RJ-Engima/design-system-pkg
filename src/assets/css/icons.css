@@ -1,0 +1,631 @@
+@font-face {
+    font-family: "icons";
+    src: url("../fonts/icons.eot") format("embedded-opentype"),
+url("../fonts/icons.woff2") format("woff2"),
+url("../fonts/icons.woff") format("woff");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-Line-Arrow-Backward:before {
+    content: "\f101";
+}
+.icon-Line-Arrow-Bottom-Left:before {
+    content: "\f102";
+}
+.icon-Line-Arrow-Bottom-Right:before {
+    content: "\f103";
+}
+.icon-Line-Arrow-Chevron-Down:before {
+    content: "\f104";
+}
+.icon-Line-Arrow-Chevron-Left:before {
+    content: "\f105";
+}
+.icon-Line-Arrow-Chevron-Right:before {
+    content: "\f106";
+}
+.icon-Line-Arrow-Chevron-Up:before {
+    content: "\f107";
+}
+.icon-Line-Arrow-Code:before {
+    content: "\f108";
+}
+.icon-Line-Arrow-Down:before {
+    content: "\f109";
+}
+.icon-Line-Arrow-Forward:before {
+    content: "\f10a";
+}
+.icon-Line-Arrow-Left:before {
+    content: "\f10b";
+}
+.icon-Line-Arrow-Navigate:before {
+    content: "\f10c";
+}
+.icon-Line-Arrow-Right:before {
+    content: "\f10d";
+}
+.icon-Line-Arrow-Rotate-Left:before {
+    content: "\f10e";
+}
+.icon-Line-Arrow-Rotate-Right:before {
+    content: "\f10f";
+}
+.icon-Line-Arrow-Sync:before {
+    content: "\f110";
+}
+.icon-Line-Arrow-Top-Left:before {
+    content: "\f111";
+}
+.icon-Line-Arrow-Top-Right:before {
+    content: "\f112";
+}
+.icon-Line-Arrow-Trend-Down:before {
+    content: "\f113";
+}
+.icon-Line-Arrow-Trend-Up:before {
+    content: "\f114";
+}
+.icon-Line-Arrow-Up:before {
+    content: "\f115";
+}
+.icon-Line-Business-Briefcase:before {
+    content: "\f116";
+}
+.icon-Line-Business-Office:before {
+    content: "\f117";
+}
+.icon-Line-Currency-Dollr:before {
+    content: "\f118";
+}
+.icon-Line-Currency-Euro:before {
+    content: "\f119";
+}
+.icon-Line-Currency-Pound:before {
+    content: "\f11a";
+}
+.icon-Line-Currency-Rupees:before {
+    content: "\f11b";
+}
+.icon-Line-Dev-Branch:before {
+    content: "\f11c";
+}
+.icon-Line-Dev-Cloud-Download:before {
+    content: "\f11d";
+}
+.icon-Line-Dev-Cloud-offline:before {
+    content: "\f11e";
+}
+.icon-Line-Dev-Cloud-Online:before {
+    content: "\f11f";
+}
+.icon-Line-Dev-Cloud-Upload:before {
+    content: "\f120";
+}
+.icon-Line-Dev-Commit:before {
+    content: "\f121";
+}
+.icon-Line-Dev-Compare:before {
+    content: "\f122";
+}
+.icon-Line-Dev-DB:before {
+    content: "\f123";
+}
+.icon-Line-Dev-Disk:before {
+    content: "\f124";
+}
+.icon-Line-Dev-Github:before {
+    content: "\f125";
+}
+.icon-Line-Dev-Hashtag:before {
+    content: "\f126";
+}
+.icon-Line-Dev-Merge:before {
+    content: "\f127";
+}
+.icon-Line-Dev-Processor:before {
+    content: "\f128";
+}
+.icon-Line-Dev-Server:before {
+    content: "\f129";
+}
+.icon-Line-Dev-Stack:before {
+    content: "\f12a";
+}
+.icon-Line-Dev-Terminal:before {
+    content: "\f12b";
+}
+.icon-Line-Document-Add:before {
+    content: "\f12c";
+}
+.icon-Line-Document-Blank:before {
+    content: "\f12d";
+}
+.icon-Line-Document-Chart:before {
+    content: "\f12e";
+}
+.icon-Line-Document-Checklist:before {
+    content: "\f12f";
+}
+.icon-Line-Document-Clipboard:before {
+    content: "\f130";
+}
+.icon-Line-Document-CSV:before {
+    content: "\f131";
+}
+.icon-Line-Document-DOC:before {
+    content: "\f132";
+}
+.icon-Line-Document-File:before {
+    content: "\f133";
+}
+.icon-Line-Document-JPG:before {
+    content: "\f134";
+}
+.icon-Line-Document-PDF:before {
+    content: "\f135";
+}
+.icon-Line-Document-Pending:before {
+    content: "\f136";
+}
+.icon-Line-Document-PNG:before {
+    content: "\f137";
+}
+.icon-Line-Document-Upload:before {
+    content: "\f138";
+}
+.icon-Line-Document-XLS:before {
+    content: "\f139";
+}
+.icon-Line-Document-XLSX:before {
+    content: "\f13a";
+}
+.icon-Line-Emoji-Dislike:before {
+    content: "\f13b";
+}
+.icon-Line-Emoji-Happy:before {
+    content: "\f13c";
+}
+.icon-Line-Emoji-Like:before {
+    content: "\f13d";
+}
+.icon-Line-Emoji-Neutral:before {
+    content: "\f13e";
+}
+.icon-Line-Emoji-Sad:before {
+    content: "\f13f";
+}
+.icon-Line-Finance-ATM:before {
+    content: "\f140";
+}
+.icon-Line-Finance-Banking:before {
+    content: "\f141";
+}
+.icon-Line-Finance-Card-Active:before {
+    content: "\f142";
+}
+.icon-Line-Finance-Card-Inactive:before {
+    content: "\f143";
+}
+.icon-Line-Finance-Cash:before {
+    content: "\f144";
+}
+.icon-Line-Finance-Coin:before {
+    content: "\f145";
+}
+.icon-Line-Finance-Discount:before {
+    content: "\f146";
+}
+.icon-Line-Finance-Gift:before {
+    content: "\f147";
+}
+.icon-Line-Finance-Insurance:before {
+    content: "\f148";
+}
+.icon-Line-Finance-Percentage:before {
+    content: "\f149";
+}
+.icon-Line-Finance-Pulse:before {
+    content: "\f14a";
+}
+.icon-Line-Finance-Receipt:before {
+    content: "\f14b";
+}
+.icon-Line-Finance-Reward:before {
+    content: "\f14c";
+}
+.icon-Line-Finance-Saving:before {
+    content: "\f14d";
+}
+.icon-Line-Finance-Transaction:before {
+    content: "\f14e";
+}
+.icon-Line-Finance-UPI:before {
+    content: "\f14f";
+}
+.icon-Line-Finance-Wallet:before {
+    content: "\f150";
+}
+.icon-Line-Gesture-Exit-Full-Screen:before {
+    content: "\f151";
+}
+.icon-Line-Gesture-Expand:before {
+    content: "\f152";
+}
+.icon-Line-Gesture-Full-Screen:before {
+    content: "\f153";
+}
+.icon-Line-Gesture-Maximise:before {
+    content: "\f154";
+}
+.icon-Line-Gesture-Minimize:before {
+    content: "\f155";
+}
+.icon-Line-Gesture-Move:before {
+    content: "\f156";
+}
+.icon-Line-Gesture-Touch:before {
+    content: "\f157";
+}
+.icon-Line-System-Add:before {
+    content: "\f158";
+}
+.icon-Line-System-Alarm:before {
+    content: "\f159";
+}
+.icon-Line-System-Alert:before {
+    content: "\f15a";
+}
+.icon-Line-System-Archive:before {
+    content: "\f15b";
+}
+.icon-Line-System-Attach:before {
+    content: "\f15c";
+}
+.icon-Line-System-Battery-Charge:before {
+    content: "\f15d";
+}
+.icon-Line-System-Battery-Empty:before {
+    content: "\f15e";
+}
+.icon-Line-System-Block:before {
+    content: "\f15f";
+}
+.icon-Line-System-Bluetooth:before {
+    content: "\f160";
+}
+.icon-Line-System-Bookmark:before {
+    content: "\f161";
+}
+.icon-Line-System-Calculator:before {
+    content: "\f162";
+}
+.icon-Line-System-Calendar:before {
+    content: "\f163";
+}
+.icon-Line-System-Call-Cancelled:before {
+    content: "\f164";
+}
+.icon-Line-System-Call-Forward:before {
+    content: "\f165";
+}
+.icon-Line-System-Call-Incoming:before {
+    content: "\f166";
+}
+.icon-Line-System-Call-Outgoing:before {
+    content: "\f167";
+}
+.icon-Line-System-Call-Rejected:before {
+    content: "\f168";
+}
+.icon-Line-System-Call-Ring:before {
+    content: "\f169";
+}
+.icon-Line-System-Call:before {
+    content: "\f16a";
+}
+.icon-Line-System-Camera-Off:before {
+    content: "\f16b";
+}
+.icon-Line-System-Camera-On:before {
+    content: "\f16c";
+}
+.icon-Line-System-Chat:before {
+    content: "\f16d";
+}
+.icon-Line-System-Check-Circle:before {
+    content: "\f16e";
+}
+.icon-Line-System-Check:before {
+    content: "\f16f";
+}
+.icon-Line-System-Close-Circle:before {
+    content: "\f170";
+}
+.icon-Line-System-Close:before {
+    content: "\f171";
+}
+.icon-Line-System-Copy:before {
+    content: "\f172";
+}
+.icon-Line-System-Crop:before {
+    content: "\f173";
+}
+.icon-Line-System-Dashboard:before {
+    content: "\f174";
+}
+.icon-Line-System-Delete:before {
+    content: "\f175";
+}
+.icon-Line-System-Digital-Sign:before {
+    content: "\f176";
+}
+.icon-Line-System-Download:before {
+    content: "\f177";
+}
+.icon-Line-System-e-Sign:before {
+    content: "\f178";
+}
+.icon-Line-System-Edit:before {
+    content: "\f179";
+}
+.icon-Line-System-Filter-Sort:before {
+    content: "\f17a";
+}
+.icon-Line-System-Filter:before {
+    content: "\f17b";
+}
+.icon-Line-System-Flag:before {
+    content: "\f17c";
+}
+.icon-Line-System-Flash-Off:before {
+    content: "\f17d";
+}
+.icon-Line-System-Flash-On:before {
+    content: "\f17e";
+}
+.icon-Line-System-Folder:before {
+    content: "\f17f";
+}
+.icon-Line-System-Globe:before {
+    content: "\f180";
+}
+.icon-Line-System-Headphone:before {
+    content: "\f181";
+}
+.icon-Line-System-Help:before {
+    content: "\f182";
+}
+.icon-Line-System-Hide:before {
+    content: "\f183";
+}
+.icon-Line-System-History:before {
+    content: "\f184";
+}
+.icon-Line-System-Home:before {
+    content: "\f185";
+}
+.icon-Line-System-Hotspot:before {
+    content: "\f186";
+}
+.icon-Line-System-Image:before {
+    content: "\f187";
+}
+.icon-Line-System-Info:before {
+    content: "\f188";
+}
+.icon-Line-System-Key:before {
+    content: "\f189";
+}
+.icon-Line-System-Keyboard:before {
+    content: "\f18a";
+}
+.icon-Line-System-Link:before {
+    content: "\f18b";
+}
+.icon-Line-System-Location:before {
+    content: "\f18c";
+}
+.icon-Line-System-Lock:before {
+    content: "\f18d";
+}
+.icon-Line-System-Login:before {
+    content: "\f18e";
+}
+.icon-Line-System-Logout:before {
+    content: "\f18f";
+}
+.icon-Line-System-Mail-Open:before {
+    content: "\f190";
+}
+.icon-Line-System-Mail:before {
+    content: "\f191";
+}
+.icon-Line-System-Menu:before {
+    content: "\f192";
+}
+.icon-Line-System-Message:before {
+    content: "\f193";
+}
+.icon-Line-System-Mic-Mute:before {
+    content: "\f194";
+}
+.icon-Line-System-Mic-Unmute:before {
+    content: "\f195";
+}
+.icon-Line-System-Monitor:before {
+    content: "\f196";
+}
+.icon-Line-System-More-Horizontal:before {
+    content: "\f197";
+}
+.icon-Line-System-More-Vertical:before {
+    content: "\f198";
+}
+.icon-Line-System-New-Tab:before {
+    content: "\f199";
+}
+.icon-Line-System-Notification-Off:before {
+    content: "\f19a";
+}
+.icon-Line-System-Notification-On:before {
+    content: "\f19b";
+}
+.icon-Line-System-Picker:before {
+    content: "\f19c";
+}
+.icon-Line-System-Play-Circle:before {
+    content: "\f19d";
+}
+.icon-Line-System-Play:before {
+    content: "\f19e";
+}
+.icon-Line-System-Print:before {
+    content: "\f19f";
+}
+.icon-Line-System-Remove-Circle:before {
+    content: "\f1a0";
+}
+.icon-Line-System-Save:before {
+    content: "\f1a1";
+}
+.icon-Line-System-Search:before {
+    content: "\f1a2";
+}
+.icon-Line-System-Setting:before {
+    content: "\f1a3";
+}
+.icon-Line-System-Share:before {
+    content: "\f1a4";
+}
+.icon-Line-System-Shield-Secured:before {
+    content: "\f1a5";
+}
+.icon-Line-System-Shield-Unsecured:before {
+    content: "\f1a6";
+}
+.icon-Line-System-Shield:before {
+    content: "\f1a7";
+}
+.icon-Line-System-Show:before {
+    content: "\f1a8";
+}
+.icon-Line-System-Sign-Out:before {
+    content: "\f1a9";
+}
+.icon-Line-System-Square-Box:before {
+    content: "\f1aa";
+}
+.icon-Line-System-Star:before {
+    content: "\f1ab";
+}
+.icon-Line-System-Stop-Circle:before {
+    content: "\f1ac";
+}
+.icon-Line-System-Support:before {
+    content: "\f1ad";
+}
+.icon-Line-System-Tag:before {
+    content: "\f1ae";
+}
+.icon-Line-System-Time:before {
+    content: "\f1af";
+}
+.icon-Line-System-Unlock:before {
+    content: "\f1b0";
+}
+.icon-Line-System-Upload:before {
+    content: "\f1b1";
+}
+.icon-Line-System-User-Add:before {
+    content: "\f1b2";
+}
+.icon-Line-System-User-Group:before {
+    content: "\f1b3";
+}
+.icon-Line-System-User-Unverified:before {
+    content: "\f1b4";
+}
+.icon-Line-System-User-Verified:before {
+    content: "\f1b5";
+}
+.icon-Line-System-User:before {
+    content: "\f1b6";
+}
+.icon-Line-System-Video-Off:before {
+    content: "\f1b7";
+}
+.icon-Line-System-Video-On:before {
+    content: "\f1b8";
+}
+.icon-Line-System-Wifi-Disabled:before {
+    content: "\f1b9";
+}
+.icon-Line-System-Wifi-Enable:before {
+    content: "\f1ba";
+}
+.icon-Line-System-Zoom-In:before {
+    content: "\f1bb";
+}
+.icon-Line-System-Zoom-Out:before {
+    content: "\f1bc";
+}
+.icon-Line-Table-Cloumn:before {
+    content: "\f1bd";
+}
+.icon-Line-Table-Export:before {
+    content: "\f1be";
+}
+.icon-Line-Table-Layout:before {
+    content: "\f1bf";
+}
+.icon-Line-Text-Editing-Align-Center:before {
+    content: "\f1c0";
+}
+.icon-Line-Text-Editing-Align-Left:before {
+    content: "\f1c1";
+}
+.icon-Line-Text-Editing-Align-Right:before {
+    content: "\f1c2";
+}
+.icon-Line-Text-Editing-Bold:before {
+    content: "\f1c3";
+}
+.icon-Line-Text-Editing-Bulletlist:before {
+    content: "\f1c4";
+}
+.icon-Line-Text-Editing-Checklist:before {
+    content: "\f1c5";
+}
+.icon-Line-Text-Editing-Italic:before {
+    content: "\f1c6";
+}
+.icon-Line-Text-Editing-Numberlist:before {
+    content: "\f1c7";
+}
+.icon-Line-Text-Editing-Type:before {
+    content: "\f1c8";
+}
+.icon-Line-Text-Editing-Underline:before {
+    content: "\f1c9";
+}
+.icon-Line-Utilities-Drop:before {
+    content: "\f1ca";
+}
+.icon-Line-Utilities-Tollgate:before {
+    content: "\f1cb";
+}
+.icon-Line-Utilities-Truck:before {
+    content: "\f1cc";
+}

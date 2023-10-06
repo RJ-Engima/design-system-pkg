@@ -1,0 +1,109 @@
+@import url("../../assets/css/variable.css");
+
+
+.range_slider{
+    width: 256px !important;
+    color: var( --primary-80) !important;
+}
+.range_slider> .MuiSlider-mark{
+    opacity: 0;
+}
+.range_slider > .MuiSlider-thumb{
+    width: 16px !important;
+    height: 16px !important;
+    background-color: #FFFFFF !important;
+    border-radius: 4px !important;
+    box-shadow: 0px 2px 4px rgba(21, 21, 21, 0.16) !important;
+}
+.range_slider>.MuiSlider-thumb>input[value='0']{
+    background-color: #F3F3F3 !important;
+}
+.range_slider > .MuiSlider-rail{
+    color: var(--grey-shadow-10) !important;
+    opacity: 1 !important;
+}
+.range_slider>.MuiSlider-markLabel{
+    position: relative !important;
+}
+.range_slider>:nth-child(4){
+    top: 11px;
+    color: #999B9C !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 14px !important;
+
+}
+.range_slider>:nth-child(6){
+    top: 11px !important;
+    left: 83% !important;
+    color: #999B9C !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 14px !important;
+
+}
+.range_slider>.MuiSlider-thumb>.MuiSlider-valueLabel{
+    background-color: unset !important;
+    color: var(--primary-80) !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 14px !important;
+    padding: 0 !important;
+}
+.range_slider>.MuiSlider-thumb>.MuiSlider-valueLabel::before{
+    opacity:0 !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.rs-input{
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    padding: 0 !important;
+    text-align: center;
+    width: 41px !important;
+    border: unset;
+    color: var(--text-primary) !important;
+}
+.rs-input::before{
+    border-bottom: 0px !important;
+}
+.rs-div{
+    width: 256px;
+    display: flex;
+    justify-content: space-between;
+}
+.rs-div>.MuiInput-root {
+
+}
+/* .range_slider>.MuiSlider-markLabelActive{
+    color: var(--primary-80) !important;
+} */
+    
+
+/* v2 Changes */
+
+.rs-div >div>.rs-title{
+    color: var(--text-primary) !important;    
+}
+.rs-input,.range_slider > .MuiSlider-markLabelActive,.range_slider > :nth-child(6){
+    color: #999B9C;
+}
+
+.rs-input::after {
+    color: var(--primary-80) !important;
+    background-color: var(--primary-80) !important;
+}
+
+.css-q0jhri-MuiInputBase-root-MuiInput-root:after{
+    border-bottom: 2px solid var(--text-primary) !important;
+}
+.css-q0jhri-MuiInputBase-root-MuiInput-root:before{
+    border-bottom: 1px solid var(--text-primary) !important;
+}
+.range_slider > .MuiSlider-thumb > .MuiSlider-valueLabel{
+    color: var(--text-primary) !important;
+}

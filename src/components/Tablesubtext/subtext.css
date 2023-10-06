@@ -1,0 +1,39 @@
+
+@font-face {
+  font-family: "icomoon";
+  src: url(../../assets/fonts/icomoonlatest.ttf);
+}
+
+@import "../../assets/css/variable.css";
+
+/* table avatar styling */
+
+.img-flex{
+  display: flex;
+  align-items: center;
+}
+
+.d-block {
+  display: block;
+}
+
+.top-text {
+  margin: 0 !important;
+  padding: 0px 0px 0px 8px !important;
+  white-space: normal !important;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px !important;
+  letter-spacing: 0.0025em;
+  color: var(--brand-black);
+}
+
+.sub-text {
+  margin: 0 !important;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 0px;
+  letter-spacing: 0.004em;
+  color: var(--grey-shadow-80);
+  padding: 0px 0px 0px 8px;
+}

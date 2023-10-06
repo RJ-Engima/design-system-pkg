@@ -1,0 +1,196 @@
+
+@import "../../assets/css/variable.css";
+
+@font-face {
+  font-family: "icomoon";
+  src: url(../../assets/fonts/icomoonlatest.ttf);
+}
+.dls-upload.ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload.ant-upload-select{
+  background: var(--primary-20) !important;
+  border-color: var(--primary);
+  min-width: 479px !important;
+  width: 100% !important;
+  height: 146px !important;
+}
+.dls-upload.ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload.ant-upload-select div{
+  display: flex;
+  align-items: center;
+}
+.dls-upload.ant-upload-wrapper.ant-upload-picture-card-wrapper{
+  position: relative;
+}
+.dls-upload.dsl-upload-single .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 479px !important;
+  height: 146px !important;
+  background-color: #fff;
+  z-index: 1;
+  width: 100% !important;
+}
+.dls-upload.dsl-upload-single .ant-upload-list-item-name{
+  display: block !important;
+  text-align: left !important;
+  position: unset !important;
+}
+.dls-upload.dsl-upload-single .ant-upload-list-item-thumbnail.ant-upload-list-item-file{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.plus-icon::after{
+  content: '\E9BB';
+  font-family: 'icomoon';
+  font-size: 24px;
+}
+.dls-upload .icon-Line-System-Logout{
+  color: var(--primary);
+  font-size: 32px;
+  rotate: 90deg;
+}
+.dls-upload
+.ant-upload-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item .ant-upload-list-item-thumbnail .anticon {
+  color: var(--success-100);
+}
+.dls-upload.dsl-upload-single .ant-upload-list-item-thumbnail{
+  width: 150px !important;
+}
+.dls-upload .ant-upload-list-item::before{
+  background-color: rgba(0, 0, 0, 0.15) !important;
+}
+.dls-upload .ant-upload-list-item-actions{
+  text-align: right !important;
+  padding-right: 30px;
+}
+.upload-icon::after{
+  content: "\eacc";
+  font-family: 'icomoon';
+  position: absolute;
+  left: 0;
+}
+
+.ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload.ant-upload-select{
+  background: linear-gradient(0deg, #F3F3F3, #F3F3F3),linear-gradient(0deg, #999B9C, #999B9C);
+}
+
+.file-upload::after{
+  content: '\EAC5';
+  font-family: 'icomoon';
+  font-size: 40px;
+  color: var(--primary);
+}
+.drop-text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.0015em;
+  text-align: center;
+  margin: 3px auto;
+}
+.p-text{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.0025em;
+  text-align: left;
+  margin: 5px auto;
+  padding-left: 20px;
+}
+.uploadTxt_1{
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--primary);
+  font-weight: 600;
+}
+.uploadTxt_2{
+  color: var(--input-lable-color);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+
+.ant-upload-list-item-done>.ant-upload-list-item-thumbnail>span>svg {
+  display: none;
+}
+
+.ant-upload-list-item-done>.ant-upload-list-item-thumbnail>.anticon-file::after{
+  content: '\E97B';
+  font-family: 'icomoon';
+  font-size: 40px;
+  color: #32A64D !important;
+  position: relative;
+  top: 5px;
+}
+/* .ant-upload-list-item-error>.ant-upload-list-item-thumbnail>span>svg {
+  display: none;
+} */
+.ant-upload-list-item-error>.ant-upload-list-item-thumbnail>.anticon-file::after {
+  content: '\E97B';
+  font-family: 'icomoon';
+  font-size: 20px;
+  color: var(--brand-color);
+  position: relative;
+  top: -13px;
+}
+.ant-upload-list-item-error {
+  border-color: var(--danger-40) !important;
+}
+.ant-upload-list-item-error .ant-upload-icon .anticon {
+  color: var(--brand-color) !important;
+}
+
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-upload-wrapper .ant-upload-list .ant-upload-list-item-error .ant-upload-list-item-name, :where(.css-dev-only-do-not-override-1i9hnpv).ant-upload-wrapper .ant-upload-list .ant-upload-list-item-error .ant-upload-icon .anticon {
+  color: var(--brand-color) !important;
+}
+
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item::before {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-upload-wrapper .ant-upload-list.ant-upload-list-picture .ant-upload-list-item, :where(.css-dev-only-do-not-override-1i9hnpv).ant-upload-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item {
+  padding: 0 !important;
+  border-radius: 4px !important;
+}
+
+/* :where(.css-dev-only-do-not-override-1i9hnpv).ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item-thumbnail, :where(.css-dev-only-do-not-override-1i9hnpv).ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item-thumbnail img {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+} */
+
+.ant-upload-list-item-error{
+  background-color: var(--danger-20) !important;
+}
+
+.ant-upload-list-item-done{
+  background-color: var(--success-20) !important;
+}
+
+.ant-upload-list-item-done>.ant-upload-list-item-name{
+  color: #32A64D !important;
+}
+
+/* multiple varient */
+.dls-upload.dsl-upload-multiple.ant-upload-wrapper{
+  display: flex;
+  padding: 25px 20px;
+  flex-direction: column;
+  width: 479px !important;
+  height: fit-content;
+  min-height: 146px;
+  background: var(--primary-20) !important;
+  border: 1px dashed var(--primary);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.dls-upload.dsl-upload-multiple.ant-upload-wrapper .ant-upload.ant-upload-select{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dls-upload.dsl-upload-multiple.ant-upload-wrapper .ant-upload.ant-upload-select div{
+  display: flex;
+  align-items: center;
+}

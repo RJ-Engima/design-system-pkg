@@ -1,0 +1,126 @@
+
+
+@import "../../assets/css/variable.css";
+
+@font-face {
+  font-family: "icomoon";
+  src: url(../../assets/fonts/icomoonlatest.ttf);
+}
+
+/* Date Range Picker */
+.ant-picker-date-panel > .ant-picker-body > table > tbody > tr > td>.ant-picker-cell-inner:hover{
+  background: var(--primary-20) !important;
+  cursor: pointer !important;
+}
+
+.ant-picker-date-panel > .ant-picker-body > table > tbody > tr > .ant-picker-cell-selected>.ant-picker-cell-inner:hover{
+  background: var(--primary-80) !important;
+  cursor: pointer !important;
+}
+
+.ant-picker-month-panel>.ant-picker-body>.ant-picker-content>tbody >tr>.ant-picker-cell-in-view>.ant-picker-cell-inner:hover{
+  background: var(--primary-20) !important;
+}
+
+.ant-picker-month-panel>.ant-picker-body>.ant-picker-content>tbody >tr>.ant-picker-cell-selected>.ant-picker-cell-inner:hover{
+  background: var(--primary-80) !important;
+}
+
+.ant-picker-month-panel>.ant-picker-body>.ant-picker-content>tbody >tr>.ant-picker-cell-range-end>.ant-picker-cell-inner:hover {
+  background: var(--primary-80) !important;
+}
+
+/* Weekly picker hover */
+
+.ant-picker-week-panel-row:hover {
+  background: var(--primary-20) !important;
+  background-color: var(--primary-20) !important;
+}
+
+.ant-picker-clear>.anticon-close-circle>svg{
+  color: var(--brand-black) !important;
+  z-index: 9;
+}
+
+/* year Picker Panel */
+
+.ant-picker-year-panel>.ant-picker-body>.ant-picker-content>tbody>tr>.ant-picker-cell>.ant-picker-cell-inner:hover {
+    background: var(--primary-20) !important;
+}
+
+.ant-picker-year-panel>.ant-picker-body>.ant-picker-content>tbody>tr>.ant-picker-cell-start>.ant-picker-cell-inner:hover {
+  background: var(--primary-80) !important;
+}
+
+.ant-picker-year-panel>.ant-picker-body>.ant-picker-content>tbody>tr>.ant-picker-cell-range-end>.ant-picker-cell-inner:hover {
+  background: var(--primary-80) !important;
+}
+
+.ant-picker-year-panel>.ant-picker-body>.ant-picker-content>tbody>tr>.ant-picker-cell-selected>.ant-picker-cell-inner:hover {
+  background: var(--primary-80) !important;
+}
+
+/* Quarterly Picker hover */
+
+.ant-picker-quarter-panel>.ant-picker-body>.ant-picker-content>tbody>tr>.ant-picker-cell-in-view>.ant-picker-cell-inner:hover {
+  background: var(--primary-20) !important;
+}
+
+.ant-picker-quarter-panel>.ant-picker-body>.ant-picker-content>tbody>tr>.ant-picker-cell-selected>.ant-picker-cell-inner:hover {
+  background: var(--primary-80) !important;
+}
+
+/* Quarterly Range Picker hover */
+
+.ant-picker-quarter-panel>.ant-picker-body>.ant-picker-content>tbody>tr>.ant-picker-cell-range-start>.ant-picker-cell-inner:hover{
+  background: var(--primary-80) !important;
+}
+
+.ant-picker-quarter-panel>.ant-picker-body>.ant-picker-content>tbody>tr>.ant-picker-cell-range-end>.ant-picker-cell-inner:hover{
+  background: var(--primary-80) !important;
+}
+
+:where(.css-dev-only-do-not-override-14wwjjs).ant-picker-dropdown .ant-picker-cell .ant-picker-cell-inner {
+  transition: background 0s,border 0s !important;
+
+}
+
+.ant-picker-datetime-panel,.ant-picker-footer {
+  background: var(--primary-hover-color) !important;
+}
+
+.ant-picker-range>.ant-picker-suffix>i{
+  color: var(--brand-black);
+}
+
+.ant-picker-cell-range-end>.ant-picker-cell-inner {
+  background: var(--primary-80) !important;
+  border-radius: 4px !important;
+}
+.ant-picker-cell-range-start>.ant-picker-cell-inner{
+  background: var(--primary-80) !important;
+  border-radius: 4px !important;
+}
+
+:where(.css-dev-only-do-not-override-14wwjjs).ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-in-range::before{
+    background: var(--primary-20) !important;
+}
+.ant-picker-active-bar{
+  background: var(--primary-80) !important;
+}
+
+.ant-picker-header>.ant-picker-header-next-btn{
+  margin-right: 16px !important;
+}
+
+:where(.css-dev-only-do-not-override-14wwjjs).ant-picker-dropdown .ant-picker-week-panel-row-range-start td.ant-picker-cell:before{
+  background: var(--primary-80) !important;
+}
+
+:where(.css-dev-only-do-not-override-14wwjjs).ant-picker-dropdown .ant-picker-week-panel-row-range-end td.ant-picker-cell:before {
+  background: var(--primary-80) !important;
+}
+
+:where(.css-dev-only-do-not-override-14wwjjs).ant-picker-dropdown .ant-picker-week-panel-row-range-hover td:before {
+  background: var(--primary-20) !important;
+}

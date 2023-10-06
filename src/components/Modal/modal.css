@@ -1,0 +1,68 @@
+@import "../../assets/css/variable.css";
+
+@font-face {
+  font-family: "icomoon";
+  src: url(../../assets/fonts/icomoonlatest.ttf);
+}
+
+/* Modal popup css */
+
+/* Antd MOdal Css */
+
+.ant-modal-wrap{
+  z-index: 99999999999 !important;
+}
+.ant-modal-mask {
+  background: rgba(21, 21, 21, 0.4) !important;
+}
+.modal-sm{
+  width: 21.041666666666668vw !important;
+  max-width: auto !important;
+}
+.modal-md{
+  width: 41.666666666666664vw !important;
+  max-width: auto !important;
+}
+.modal-lg{
+  width: 71.11111111111111vw !important;
+  max-width: auto !important;
+}
+.modal-sm>.ant-modal-content>.ant-modal-body {
+  max-height: 25.305556vw !important;
+  overflow: auto !important;
+}
+
+.ant-modal-close-x:after{
+  content: '\E9EA';
+  font-family: "icomoon";
+  font-size: 14px !important;
+  color: var(--body-text) !important;
+}
+
+.ant-modal-close-icon{
+  display: none;
+}
+
+.ant-modal-content{
+  padding: 0 !important;
+}
+
+.ant-modal-header{
+  padding: 16px !important;
+  border-bottom: 1px solid var(--grey-shadow-20) !important;
+}
+
+.ant-modal-header,.ant-modal-body,.ant-modal-footer{
+  padding: 16px !important;
+}
+
+.modal-sm>.ant-modal-content>.ant-modal-header>.ant-modal-title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--text-primary) !important;
+}
+
+/* directional */
+

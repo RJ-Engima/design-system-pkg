@@ -1,0 +1,401 @@
+@import url("../../assets/css/variable.css");
+
+/* info alignment */
+.info-content{
+    display: flex;
+    justify-content: left;
+    padding: 0px 30px 0px 0px;
+    flex-wrap: wrap;
+}
+.info-content>div {
+    margin: 0px 20px 20px 0px;
+}
+.badge-title {
+    padding: 10px 0px !important;
+    font-size: 14px !important;
+}
+/* info alignment */
+
+/* latest */
+.MuiChip-root {
+    border-radius: 4px !important;
+    min-height: 24px;
+    cursor: pointer !important;
+}
+
+.MuiChip-root>.MuiChip-label{
+    padding: 0px 0px !important;
+    font-size: 12px !important;
+    line-height: inherit !important;
+}
+
+.declined>span,.success> span,.warning>span,.neutral>span,.primary>span,.info>span{
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+}
+.primary-ol>span,.declined-ol>span,.warning-ol>span,.success-ol>span,.info-ol>span,.neutral-ol>span{
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+}
+/* Info batch filled */
+.badge-neutral{
+    background-color: var(--disabled-text) !important;
+    padding: 4px 8px !important;
+    min-width: 43px;
+    height: 24px !important;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--text-white) !important;
+    font-size: var(--caption-font-size) !important;
+    line-height: 16px;
+    border-radius:var(--button-border-curve) !important;
+}
+.badge-primary{
+    background-color: var(--primary) !important;
+    padding: 4px 8px !important;
+    color: var(--text-white) !important;
+    min-width: 43px;
+    height: 24px !important;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--text-white) !important;
+    font-size: var(--caption-font-size) !important;
+    line-height: 16px;
+    border-radius:var(--button-border-curve) !important;
+
+}
+.badge-success{
+    background-color: var(--alert-success-bg) !important ;
+    padding: 4px 8px !important;
+    min-width: 43px !important;
+    height: 24px !important;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--text-success) !important;
+    font-size: var(--caption-font-size) !important;
+    line-height: 16px;
+    border-radius:var(--button-border-curve) !important;
+
+}
+.badge-declined{
+    background-color: var(--alert-danger-bg) !important;
+    padding: 4px 8px !important;
+    min-width: 43px !important;
+    height: 24px !important;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--text-error) !important;
+    font-size: var(--caption-font-size) !important;
+    line-height: 16px;
+    border-radius:var(--button-border-curve) !important;
+
+}
+.badge-warning{
+    background-color: var(--warning-10) !important;
+    padding: 4px 8px !important;
+    min-width: 43px;
+    height: 24px !important;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--text-warning) !important;
+    font-size: var(--caption-font-size) !important;
+    line-height: 16px;
+    border-radius:var(--button-border-curve) !important;
+
+}
+.badge-info{
+    background-color: var(--alert-info-bg) !important;
+    padding: 4px 8px !important;
+    min-width: 43px !important;
+    height: 24px !important;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--text-info) !important;
+    font-size: var(--caption-font-size) !important;
+    line-height: 16px;
+    border-radius:var(--button-border-curve) !important;
+
+}
+/* Info badge filled with icon Left */
+
+.primary-icl>i{
+    padding-right: 8px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.success-icl>i{
+    padding-right: 8px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.warning-icl>i{
+    padding-right: 8px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.declined-icl>i{
+    padding-right: 8px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.info-icl>i{
+    padding-right: 8px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.neutral-icl>i{
+    padding-right: 8px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+
+/* Info badge filled with icon Right */
+
+.primary-icr>i{
+    padding-left: 10px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.success-icr>i{
+    padding-left: 10px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.warning-icr>i{
+    padding-left: 10px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.declined-icr>i{
+    padding-left: 10px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.info-icr>i{
+    padding-left: 10px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.neutral-icr>i{
+    padding-left: 10px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+
+/* Info badge outlined */
+.neutral-ol{
+    border: 1px solid var(--disabled-text) !important;
+    background-color: inherit !important;
+    padding: 5px 8px !important;
+    min-width: 43px;
+    height: 24px !important;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--disabled-text) !important;
+    font-size: var(--caption-font-size) !important;
+    line-height: 16px;
+    border-radius:var(--button-border-curve) !important;
+}
+.primary-ol{
+    border: 1px solid var( --primary) !important;
+    background-color: inherit !important;
+    padding: 5px 8px !important;
+    color: var(--primary) !important;
+    min-width: 43px;
+    height: 24px !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--caption-font-size) !important;
+    line-height: 16px;
+    border-radius:var(--button-border-curve) !important;
+
+}
+.success-ol{
+    border: 1px solid var(--success-line) !important ;
+    background-color: inherit !important;
+    padding: 5px 8px !important;
+    min-width: 43px;
+    height: 24px !important;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--success-line) !important;
+    font-size: var(--caption-font-size) !important;
+    line-height: 16px;
+    border-radius:var(--button-border-curve) !important;
+
+}
+.declined-ol{
+    border: 1px solid var(--imperial_red-shadow-80) !important;
+    background-color: inherit !important;
+    padding: 5px 8px !important;
+    min-width: 43px;
+    height: 24px !important;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--imperial_red-shadow-80) !important;
+    font-size: var(--caption-font-size) !important;
+    line-height: 16px;
+    border-radius:var(--button-border-curve) !important;
+}
+
+.warning-ol{
+    border: 1px solid var(--orange-shadow-80) !important;
+    background-color: inherit !important;
+    padding: 5px 8px !important;
+    min-width: 43px;
+    height: 24px !important;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--orange-shadow-80) !important;
+    font-size: var(--caption-font-size) !important;
+    line-height: 16px;
+    border-radius:var(--button-border-curve) !important;
+
+}
+.info-ol{
+    border: 1px solid var(--pecific_blue-shadow-80) !important;
+    background-color: inherit !important;
+    padding: 5px 8px !important;
+    min-width: 43px !important;
+    height: 24px !important;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--pecific_blue-shadow-80) !important;
+    font-size: var(--caption-font-size) !important;
+    line-height: 16px; 
+    border-radius:var(--button-border-curve) !important;
+}
+
+/* badge Icon left */
+
+
+
+/* Badge Icons Configure */
+
+.primary-icl,.success-icl,.warning-icl,.declined-icl,.info-icl,.neutral-icl,
+.primary-ol-icl,.success-ol-icl,.warning-ol-icl,.declined-ol-icl,.info-ol-icl,.neutral-ol-icl {
+    display: flex;  
+    flex-direction: row;        
+    justify-content: space-between;
+}   
+
+.primary-icr,.success-icr,.warning-icr,.declined-icr,.info-icr,.neutral-icr,
+.primary-ol-icr,.success-ol-icr,.warning-ol-icr,.declined-ol-icr,.info-ol-icr,.neutral-ol-icr {
+    display: flex;  
+    flex-direction: row-reverse;   
+    justify-content: space-between;     
+}   
+
+/* common */
+
+.primary-icl>i,.success-icl>i,.warning-icl>i,.declined-icl>i,.info-icl>i,.neutral-icl>i,
+.primary-icr>i,.success-icr>i,.warning-icr>i,.declined-icr>i,.info-icr>i,.neutral-icr>i,
+.primary-ol-icl>i,.success-ol-icl>i,.warning-ol-icl>i,.declined-ol-icl>i,.info-ol-icl>i,.neutral-ol-icl>i,
+.primary-ol-icr>i,.success-ol-icr>i,.warning-ol-icr>i,.declined-ol-icr>i,.info-ol-icr>i,.neutral-ol-icr>i { 
+    margin-left: 0 !important;
+    margin-right: 0 !important;     
+}   
+
+/* filled left icon */
+.primary-ol-icl>i {
+    padding-right: 8px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+
+.success-ol-icl>i {
+    padding-right: 8px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+
+.warning-ol-icl>i {
+    padding-right: 8px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+
+.declined-ol-icl>i {
+    padding-right: 8px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.info-ol-icl>i {
+    padding-right: 8px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+
+.neutral-ol-icl>i {
+    padding-right: 8px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+
+/* filled  right icon */
+
+.primary-ol-icr>i { 
+    padding-left: 10px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.success-ol-icr>i { 
+    padding-left: 10px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.warning-ol-icr>i { 
+    padding-left: 10px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.declined-ol-icr>i { 
+    padding-left: 10px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.info-ol-icr>i { 
+    padding-left: 10px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.neutral-ol-icr>i { 
+    padding-left: 10px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+
+/* outline left icon */
+
+.primary-ol-icl>i { 
+    padding-right: 8px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.success-ol-icl>i { 
+    padding-right: 8px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.warning-ol-icl>i { 
+    padding-right: 8px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.declined-ol-icl>i { 
+    padding-right: 8px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.info-ol-icl>i { 
+    padding-right: 8px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}
+.neutral-ol-icl>i { 
+    padding-right: 8px !important; 
+    font-size: 16px !important;
+    color: currentColor !important;
+}

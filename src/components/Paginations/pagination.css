@@ -1,0 +1,143 @@
+@import url("../../assets/css/variable.css");
+
+/*
+.ds-pagination>ul>li> .MuiButtonBase-root.MuiPaginationItem-root {
+    border: 1px solid #F3F3F3 !important;
+    border-radius: 8px !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    padding: 8px 12px !important;
+    min-width: 0 !important;
+    color: #D2D2D3 !important;
+}
+.ds-pagination>ul>li> .MuiButtonBase-root.MuiPaginationItem-root.Mui-selected {
+    background-color: var(--brand-color) !important;
+    color: #ffffff !important;
+}
+.ds-pagination>ul>li>.MuiButtonBase-root.MuiPaginationItem-root:hover {
+    background-color: var(--imperial_red-shadow-40) !important;
+    color: #ffffff !important;
+}
+.ds-tablePagination>.MuiTablePagination-toolbar>.MuiInputBase-root>.MuiInputBase-input{
+    border: 1px solid !important;
+    border-radius: 4px !important;
+}
+.ds-tablePagination>.MuiTablePagination-toolbar>.MuiTablePagination-selectLabel{
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    color: #4D4E50 !important;
+}
+.ds-tablePagination>.MuiTablePagination-toolbar>.MuiTablePagination-displayedRows{
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    color: #4D4E50 !important;
+}
+.ds-tablePagination>.MuiTablePagination-toolbar>.MuiTablePagination-displayedRows::before{
+    content: 'Showing';
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    color: #4D4E50 !important;
+    padding-right: 10px;
+}
+.ds-pagination>ul>li> .MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-previousNext{
+    border: unset !important;
+}
+.ds-pagination>ul>li> .MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-firstLast{
+    border: unset !important;
+    align-items: flex-start;
+}
+.ds-pagination>ul>li> .MuiButtonBase-root.MuiPaginationItem-root.Mui-disabled.MuiPaginationItem-firstLast{
+    color: currentColor;
+    align-items: flex-start;
+}
+.ds-pagination>ul>li:first-child> .MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-firstLast::after{
+    content:"First Page" ;
+    margin-left: 10px;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: demi-regular;
+
+}
+.ds-pagination>ul>li:last-child >.MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-firstLast:before{
+    content:"Last Page" ;
+    margin-right: 10px;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: demi-regular;
+
+}
+.ds-pagination>ul>li> .MuiButtonBase-root.MuiPaginationItem-root.Mui-disabled.MuiPaginationItem-firstLast>.MuiPaginationItem-icon{
+    color: #000 !important;
+}
+.ds-pagination>ul>li> .MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-firstLast>.MuiPaginationItem-icon{
+    color: #000 !important;
+} */
+
+/* Antd Pagination */
+.ds_pagination{
+    padding: 0px 15px;
+    display: flex;
+}
+.ds_pagination .ant-pagination-total-text{
+    font-family: var(--Public-Sans);
+}
+.ds_pagination li{
+    margin-inline-end: 3px !important;
+}
+.ds_pagination li:nth-of-type(1){
+    order: -2;
+    display: none;
+}
+.ds_pagination li:last-of-type{
+    order: -1;
+    display: list-item;
+}
+.ds_pagination .ant-pagination-prev{
+    margin-left: auto;
+}
+.ds_pagination .ant-pagination-prev .ant-pagination-item-link{
+    display: flex !important;
+    align-items: center !important;
+}
+.ds_pagination .ant-pagination-next .ant-pagination-item-link{
+    display: flex !important;
+    align-items: center !important;
+}
+.ds_pagination .ant-pagination-options{
+    margin-right: 16px ;
+}
+
+.ds_pagination .anticon svg{
+    fill: var(--primary);
+}
+.ds_pagination .ant-select-item-option-selected{
+    /* border-left: 4px solid var(--primary) !important */
+    color: var(--primary-80) !important;
+}
+.ds_pagination .ant-select-item-option-active:hover{
+    /* border-left: 4px solid var(--primary) !important */
+}
+
+
+/* Changes */
+
+.ant-pagination .ant-pagination-item a {
+    color: var(--text-primary) !important;
+}
+
+.ds_pagination .ant-pagination-item-active a{
+    background-color: unset !important;
+    border: 1px solid var(--primary) !important;
+    color: var(--primary)  !important;
+}
+.ant-pagination.ds_pagination {
+    position: relative;
+}
